@@ -1,6 +1,7 @@
 {
 	"id":"els_raad",
 	"specClass":"missile",
+    "onHitEffect":"data.scripts.weapons.RaadOnHit",
 	"missileType":"ROCKET",
 	"sprite":"graphics/ELS/missiles/els_grmissile.png",
 	"size":[10,24],
