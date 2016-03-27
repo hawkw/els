@@ -1,3 +1,4 @@
 id,type,text1,text3,notes,text2
 els_raad_rack,WEAPON,"Based on the highly successful Hatf strike munition, the Ra'ad (""Thunder"") rocket has been modified to carry a powerful electromagnetic warhead. The Ra'ad's electromagnetic pulse will arc across an enemy ship's shields and wreak havoc on its electrical subsystems..",,,Fire Support
 els_hatf_rack,WEAPON,"The Hatf (""Vengeance"") Standoff-Range Attack Munition is a fast unguided rocket carrying a high-yield explosive charge.",,,Strike
+els_sirocco,WEAPON,Basically what happens when you toss a handful of ferrous gravel into a big and mean electromagnetic coil.,,,Close Support
