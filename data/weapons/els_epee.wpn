@@ -8,7 +8,7 @@
 	"turretGunSprite":"graphics/ELS/weapons/els_light_railgun_turret_recoil.png",
 	"hardpointSprite":"graphics/ELS/weapons/els_light_railgun_hardpoint_base.png",
 	"hardpointGunSprite":"graphics/ELS/weapons/els_light_railgun_hardpoint_recoil.png",
-	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
 	#"glowColor":[200,200,255,255],
 	"turretOffsets":[6, 0],
 	"turretAngleOffsets":[0],

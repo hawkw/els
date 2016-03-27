@@ -7,6 +7,7 @@
 	"turretGunSprite":"graphics/ELS/weapons/els_med_railgun_turret_recoil.png",
 	"hardpointSprite":"graphics/ELS/weapons/els_med_railgun_hardpoint_base.png",
 	"hardpointGunSprite":"graphics/ELS/weapons/els_med_railgun_hardpoint_recoil.png",
+	"visualRecoil":6.0,
 	#"glowColor":[200,200,255,255],
 	"turretOffsets":[2, 0],
 	"turretAngleOffsets":[0],
