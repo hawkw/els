@@ -14,7 +14,7 @@
 	"hardpointOffsets":[2, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"FLASH",
+	"animationType":"MUZZLE_FLASH",
 	"muzzleFlashSpec":{"length":55.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":2.0,
 					   "particleSizeMin":7.5,
