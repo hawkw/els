@@ -20,8 +20,9 @@
 					   "particleSizeRange":10.0,
 					   "particleDuration":0.18,
 					   "particleCount":40,
-					   "particleColor":[235,230,255,255]},
+					   "particleColor":[235,220,255,255]},
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"els_sirocco_shot",  # projectile that will be fired
-	"fireSoundTwo":"els_heavykineticwham_fire",
+	"fireSoundOne": "els_sirocco_charge",
+	"fireSoundTwo":"els_sirocco_fire",
 }

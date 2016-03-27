@@ -6,5 +6,6 @@
 	"els_kineticwham_fire":[{"file":"sounds/ELS/fx/els_kineticwham.ogg","pitch":1, "volume":0.5}],
 	"els_heavykineticwham_fire":[{"file":"sounds/ELS/fx/els_heavykineticwham.ogg","pitch":1, "volume":0.5}],
 	"els_epee_fire":[{"file":"sounds/ELS/fx/els_coilgun_fire.ogg","pitch":1.5, "volume":0.5}],
-
+	"els_sirocco_fire":[{"file":"sounds/ELS/fx/els_siroccofire.ogg","pitch":1.5, "volume":0.5}],
+	"els_sirocco_charge":[{"file":"sounds/ELS/fx/els_siroccocharge.ogg","pitch":1.5, "volume":0.5}],
 }
