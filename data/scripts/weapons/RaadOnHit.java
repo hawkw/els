@@ -13,6 +13,11 @@ import com.fs.starfarer.api.combat.ShipAPI;
 
 public class RaadOnHit implements OnHitEffectPlugin {
 
+    private static final Color CORE_COLOR = new Color(248,255,85,255);
+    private static final Color FRINGE_COLOR = new Color(93,253,91,255);
+    private static final float ARC_WIDTH = 20f;
+    private static final float ARC_RANGE = 100000f;
+    private static final String SFX = "tachyon_lance_emp_impact";
 
 	public void onHit(DamagingProjectileAPI projectile,
                       CombatEntityAPI target,
@@ -29,14 +34,25 @@ public class RaadOnHit implements OnHitEffectPlugin {
             							    DamageType.ENERGY,
             							    dam,
             							    emp, // emp
-            							    100000f, // max range
-            							    "tachyon_lance_emp_impact",
-            							    20f, // thickness
-            							    new Color(248,255,85,255),
-            							    new Color(93,253,91,255)
+            							    ARC_RANGE,
+            							    SFX,
+            							    ARC_WIDTH,
+            							    CORE_COLOR, FRINGE_COLOR
             							    );
 
-			//engine.spawnProjectile(null, null, "plasma", point, 0, new Vector2f(0, 0));
-		}
+		} else if (target instanceof ShipAPI) {
+            // if we hit hull, the hit will do the EMP damage,
+            // but spawn a decorative arc for 0 damage anyway.
+            engine.spawnEmpArc(projectile.getSource(),
+                               point, target, target,
+							   DamageType.ENERGY,
+							   0,
+							   0, // emp
+							   ARC_RANGE,
+							   SFX,
+							   ARC_WIDTH,
+                               CORE_COLOR, FRINGE_COLOR
+							   );
+        }
 	}
 }
