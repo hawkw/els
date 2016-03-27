@@ -4,20 +4,18 @@
 	"type":"BALLISTIC",
 	"size":"SMALL",
 	"displayArcRadius":600,
-	"turretSprite":"graphics/ELS/weapons/els_epee_turret_base.png",
-	"turretGunSprite":"graphics/ELS/weapons/els_epee_turret_recoil.png",
-	"turretGlowSprite":"graphics/ELS/weapons/els_epee_turret_glow.png",
-	"hardpointSprite":"graphics/ELS/weapons/els_epee_hardpoint_base.png",
-	"hardpointGunSprite":"graphics/ELS/weapons/els_epee_hardpoint_recoil.png",
-	"hardpointGlowSprite":"graphics/ELS/weapons/els_epee_hardpoint_glow.png",
+	"turretSprite":"graphics/ELS/weapons/els_light_railgun_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/els_light_railgun_turret_recoil.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_light_railgun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/els_light_railgun_hardpoint_recoil.png",
 	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
-	"glowColor":[200,200,255,255],
+	#"glowColor":[200,200,255,255],
 	"turretOffsets":[6, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[6, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":2.0,
