@@ -5,4 +5,4 @@ Glaive Coilgun,els_glaive,2,2000,950,,200,100,60,10,13,20,0.667,,KINETIC,225,,,0
 Greave Cannon,els_greavecannon,1,2500,900,,120,,5,20,12,,,,HIGH_EXPLOSIVE,120,,0,0.5,1,,0,10,2,10,,800,,,50,,7
 Épée Mass Driver,els_epee,2,600,700,,100,60,3,10,7,,,,KINETIC,100,,0,0.667,,,0,,1,9,,800,,,20,,2.5
 Hatf SRAM Rack,els_hatf_rack,1,500,1000,,700,,200,0,5,6,,,HIGH_EXPLOSIVE,0,,,1,0,0,0,0,0,0,,950,250,3.5,250,STRIKE,123.48
-Ra'ad SRAM Rack,els_raad_rack,2,600,900,,300,700,175,0,6,6,,,ENERGY,0,,,1,0,0,0,0,0,0,,1000,300,3.3,200,STRIKE,123.55
+Ra'ad SRAM Rack,els_raad_rack,2,600,900,,300,1200,175,0,6,6,,,ENERGY,0,,,1,0,0,0,0,0,0,,1000,300,3.3,200,STRIKE,123.55
