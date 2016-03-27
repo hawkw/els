@@ -7,7 +7,7 @@
 	"turretGlowSprite":"graphics/ELS/weapons/els_glaive_turret_glow.png",
 	"hardpointSprite":"graphics/ELS/weapons/els_glaive_hardpoint_base.png",
 	"hardpointGlowSprite":"graphics/ELS/weapons/els_glaive_hardpoint_glow.png",
-	"glowColor":[215,215,200,255],
+	"glowColor":[235,230,255,255],
 	"turretOffsets":[2, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[2, 0],
@@ -20,7 +20,7 @@
 					   "particleSizeRange":10.0,
 					   "particleDuration":0.18,
 					   "particleCount":40,
-					   "particleColor":[215,215,200,255]},
+					   "particleColor":[235,230,255,255]},
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"els_sirocco_shot",  # projectile that will be fired
 	"fireSoundTwo":"els_heavykineticwham_fire",
