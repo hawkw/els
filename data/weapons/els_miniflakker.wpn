@@ -1,0 +1,27 @@
+{
+	"id":"els_miniflakker",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/ELS/weapons/els_miniflakker_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/els_miniflakker_turret_recoil.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_miniflakker_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/els_miniflakker_hardpoint_recoil.png",	
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[15, -2.5, 15, 2.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[16, -2.5, 16, 2.5],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":7.5,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":9.0,
+					   "particleDuration":0.15,
+					   "particleCount":28,
+					  "particleColor":[255,140,75,245]},
+	"projectileSpecId":"els_flakkershot",  # projectile that will be fired
+	"fireSoundTwo":"els_miniflakker_fire",	
+}

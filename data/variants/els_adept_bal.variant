@@ -1,0 +1,27 @@
+{
+    "displayName": "Ballistic",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "hullId": "els_adept",
+    "hullMods": [
+        "extendedshieldemitter",
+        "targetingunit"
+    ],
+    "quality": 0.5,
+    "variantId": "els_adept_bal",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "els_coilac",
+                "WS0003": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "els_miniflakker"}
+        }
+    ]
+}

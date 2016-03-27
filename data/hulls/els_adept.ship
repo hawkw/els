@@ -1,0 +1,200 @@
+{
+  "bounds": [
+    45.5,
+    -5,
+    35.5,
+    -6.5,
+    30.5,
+    -11.5,
+    37,
+    -13,
+    37,
+    -17,
+    29.5,
+    -20.5,
+    38,
+    -31,
+    24,
+    -29,
+    5.5,
+    -31,
+    2.5,
+    -29.5,
+    -7.5,
+    -29.5,
+    -12,
+    -33.5,
+    -17.5,
+    -31.5,
+    -26.5,
+    -37.5,
+    -35.5,
+    -32.5,
+    -26,
+    -22.5,
+    -35.5,
+    -20.5,
+    -35.5,
+    -5.5,
+    -25.5,
+    -0,
+    -35.5,
+    5.5,
+    -35.5,
+    20.5,
+    -26,
+    22.5,
+    -35.5,
+    32.5,
+    -26.5,
+    37.5,
+    -17.5,
+    31.5,
+    -12,
+    33.5,
+    -7.5,
+    29.5,
+    2.5,
+    29.5,
+    5.5,
+    31,
+    24,
+    29,
+    38,
+    31,
+    29.5,
+    20.5,
+    37,
+    17,
+    37,
+    13,
+    30.5,
+    11.5,
+    35.5,
+    6.5,
+    45.5,
+    5
+  ],
+  "builtInMods": [
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0004": "blinker_red",
+    "WS0005": "blinker_green"
+  },
+  "center": [
+    40,
+    41
+  ],
+  "collisionRadius": 60,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -38,
+        13
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -38,
+        -13
+      ],
+      "style": "LOW_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 25,
+      "location": [
+        -29,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 5
+    }
+  ],
+  "height": 92,
+  "hullId": "els_adept",
+  "hullName": "Adept",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    2.5,
+    -0
+  ],
+  "shieldRadius": 61.5,
+  "spriteName": "graphics/ELS/ships/els_adept.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -2,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 75,
+      "arc": 210,
+      "id": "WS0002",
+      "locations": [
+        12.5,
+        19.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -75,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        12.5,
+        -19.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        -12.5,
+        35
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -90,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -12.5,
+        -35
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 80
+}

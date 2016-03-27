@@ -1,0 +1,18 @@
+{
+	"id":"els_glaive_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":200.0,
+	"width":6.0,
+	"fadeTime":0.25,
+	"fringeColor":[200,200,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[200,200,255,100],
+	"glowRadius":15,
+	"hitGlowRadius":45,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":10.0,
+	"bulletSprite":"graphics/ELS/missiles/els_mag_slug.png"
+}

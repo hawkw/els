@@ -1,0 +1,9 @@
+{
+  "id":"els_adpt", # internal id
+	"name":"Adept Test", # displayed to the player
+	"author":"Soren",
+	"version":"0.1.2 (very) Alpha",
+	"description":"A tiny chunky green fellow who likes to peek in windows.",
+  "gameVersion":"0.7",
+}
+()
