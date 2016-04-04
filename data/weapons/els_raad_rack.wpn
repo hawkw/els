@@ -9,7 +9,7 @@
 	"turretOffsets":[6, 3.5, 6, -3.5],
 	"hardpointAngleOffsets":[1,-1],
 	"turretAngleOffsets":[1,-1],
-	"barrelMode":"LINKED",
+	"barrelMode":"ALTERNATING",
 	"animationType":"SMOKE",
 	"renderHints":[RENDER_LOADED_MISSILES],
 	"interruptibleBurst":false,

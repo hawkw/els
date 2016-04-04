@@ -2,3 +2,6 @@ id,type,text1,text3,notes,text2
 els_raad_rack,WEAPON,"Based on the highly successful Hatf strike munition, the Ra'ad (""Thunder"") rocket has been modified to carry a powerful electromagnetic warhead. The Ra'ad's electromagnetic pulse will arc across an enemy ship's shields and wreak havoc on its electrical subsystems..",,,Fire Support
 els_hatf_rack,WEAPON,"The Hatf (""Vengeance"") Standoff-Range Attack Munition is a fast unguided rocket carrying a high-yield explosive charge.",,,Strike
 els_sirocco,WEAPON,Basically what happens when you toss a handful of ferrous gravel into a big and mean electromagnetic coil.,,,Close Support
+els_pdlaser,WEAPON,"A phased-array solid state laser designed to intercept inbound ordnance. The beam's focusing optics are optimised for burning through missiles, so its performance suffers against armour and shields.",,,Point Defense
+els_hmaser,WEAPON,"A high-energy hydrogen maser. Though demanding on a ship's reactor, the Heavy Maser proves an effective support weapon, as its withering RF beam easily boils armour and disrupts enemy avionics.",,,Close Support
+els_excimer,WEAPON,"A gigawatt-range excimer laser driven by a built-in capacitor bank. While each burst deals intense damage, the capacitors must be recharged after six shots, making this weapon well suited for a fast-attack role.",,,Assault
