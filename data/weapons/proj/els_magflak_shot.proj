@@ -1,0 +1,33 @@
+{
+	"id":"els_magflak_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":45.0,
+	"hitGlowRadius":15,
+	"width":4.5,
+	"fadeTime":0.2,
+	"glowRadius": 5,
+	"fringeColor":[200,200,255,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[200,200,255,75],
+	"textureScrollSpeed":48.0,
+	"pixelsPerTexel":2.0,
+	"bulletSprite":"graphics/ELS/missiles/els_heshell.png",
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":30,
+					"explosionSpec":{"duration":0.12,
+									 "radius":30,
+									 "coreRadius":25, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":1.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":0.5,
+									 "particleCount":80,
+									 "particleColor":[220,220,255,255],
+									 "sound":"explosion_flak"},
+					}
+
+}
