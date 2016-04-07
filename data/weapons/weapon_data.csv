@@ -13,3 +13,4 @@ Excimer Lance,els_excimer,2,2000,750,600,,,0,25,12,6,0.5,3,ENERGY,,750,,0.2,0.4,
 Zone Defence Laser,els_pdlaser,2,400,450,75,,,6,115,7,,,,FRAGMENTATION,,25,0.1,0.1,,,,,,,3000,,,,,PD,100
 Twin Mag Flak,els_magflaktwin,2,2200,475,,120,50,200,60,12,,,,FRAGMENTATION,60,,0.1,0.60,2,0.1,0,8,1,10,,850,,,30,PD,250
 Mag Flak,els_magflak,1,1200,550,,150,70,250,50,8,,,,FRAGMENTATION,60,,0.1,0.60,,,0,9,1,10,,850,,,30,PD,125
+Countermissile Launcher,els_countermissile_3cell,3,650,900,,150,,100,20,6,12,0.5,3,FRAGMENTATION,0,0,0.1,1.2,1,2,8,1,10,10,,1000,300,1.0,40,"PD, PD_ONLY, DO_NOT_AIM",67
