@@ -1,0 +1,34 @@
+{
+    "displayName": "Fast Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 20,
+    "hullId": "els_chevalier",
+    "hullMods": ["auxiliarythrusters"],
+    "quality": 0.5,
+    "variantId": "els_chevalier_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0000": "els_excimer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_sirocco",
+                "WS0004": "els_sirocco"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_countermissile_3cell",
+                "WS0002": "els_countermissile_3cell",
+                "WS0005": "els_pdlaser",
+                "WS0006": "els_pdlaser"
+            }
+        }
+    ]
+}

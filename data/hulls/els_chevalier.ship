@@ -1,0 +1,203 @@
+{
+  "bounds": [
+    -105.5,
+    -7.5,
+    -96,
+    -9.5,
+    -96,
+    -29,
+    -58,
+    -29,
+    -50.5,
+    -19,
+    -30,
+    -26.5,
+    -23,
+    -30,
+    2.5,
+    -30.5,
+    15,
+    -15,
+    25,
+    -18,
+    28,
+    -34,
+    34.5,
+    -34,
+    35,
+    -18.5,
+    53,
+    -19.5,
+    97,
+    -13,
+    97,
+    13,
+    53,
+    19.5,
+    35,
+    18.5,
+    34.5,
+    34,
+    28,
+    34,
+    25,
+    18,
+    15,
+    15,
+    2.5,
+    30.5,
+    -23,
+    30,
+    -30,
+    26.5,
+    -50.5,
+    19,
+    -58,
+    29,
+    -96,
+    29,
+    -96,
+    9.5,
+    -105.5,
+    7.5
+  ],
+  "center": [
+    36,
+    108.5
+  ],
+  "collisionRadius": 109.895409,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 45.5,
+      "location": [
+        -107.5,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -99,
+        22
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -99,
+        -22
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    }
+  ],
+  "height": 216,
+  "hullId": "els_chevalier",
+  "hullName": "Chevalier",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 115.57357,
+  "spriteName": "graphics/ELS/ships/els_chevalier.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 75,
+      "arc": 150,
+      "id": "WS0001",
+      "locations": [
+        49.5,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -75,
+      "arc": 150,
+      "id": "WS0002",
+      "locations": [
+        49.5,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        -10.5,
+        17
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0004",
+      "locations": [
+        -10.5,
+        -17
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 110,
+      "arc": 150,
+      "id": "WS0005",
+      "locations": [
+        -36.5,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -110,
+      "arc": 150,
+      "id": "WS0006",
+      "locations": [
+        -36.5,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0000",
+      "locations": [
+        86.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 72
+}
