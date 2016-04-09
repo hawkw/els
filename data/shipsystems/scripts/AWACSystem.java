@@ -23,8 +23,8 @@ public class AWACSystem implements ShipSystemStatsScript {
 
     private static final float RANGE = 5000f;
     private static final float ACCURACY_BONUS = 0.75f;
-    private static final float RANGE_BONUS = 50f;
-    private static final float SENSOR_BONUS = 50f;
+    private static final float RANGE_BONUS = 25f;
+    private static final float SENSOR_BONUS = 25f;
     private static final Vector2f ZERO = new Vector2f();
     private static final Color WEAPON_GLOW = new Color(150, 255, 200, 100);
 
