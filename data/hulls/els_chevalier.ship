@@ -109,7 +109,7 @@
     0,
     -0
   ],
-  "shieldRadius": 115.57357,
+  "shieldRadius": 130,
   "spriteName": "graphics/ELS/ships/els_chevalier.png",
   "style": "MIDLINE",
   "viewOffset": 0,
