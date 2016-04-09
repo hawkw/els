@@ -22,7 +22,7 @@
         },
         {
             "autofire": true,
-            "mode": LINKED",
+            "mode": "LINKED",
             "weapons": {
                 "WS0005": "els_pdlaser",
                 "WS0006": "els_pdlaser"
@@ -30,7 +30,7 @@
         },
         {
             "autofire": true,
-            "mode": ALTERNATING",
+            "mode": "ALTERNATING",
             "weapons": {
                 "WS0001": "els_countermissile_3cell",
                 "WS0002": "els_countermissile_3cell",
