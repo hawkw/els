@@ -75,7 +75,7 @@
         -107.5,
         -0
       ],
-      "style": "MIDLINE",
+      "style": "ELS_MILITARY",
       "width": 20
     },
     {
@@ -86,7 +86,7 @@
         -99,
         22
       ],
-      "style": "MIDLINE",
+      "style": "ELS_MILITARY",
       "width": 20
     },
     {
@@ -97,7 +97,7 @@
         -99,
         -22
       ],
-      "style": "MIDLINE",
+      "style": "ELS_MILITARY",
       "width": 20
     }
   ],

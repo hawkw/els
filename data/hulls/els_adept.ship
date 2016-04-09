@@ -96,7 +96,7 @@
         -38,
         13
       ],
-      "style": "LOW_TECH",
+      "style": "ELS_MILITARY",
       "width": 15
     },
     {
@@ -107,7 +107,7 @@
         -38,
         -13
       ],
-      "style": "LOW_TECH",
+      "style": "ELS_MILITARY",
       "width": 15
     },
     {
@@ -118,7 +118,7 @@
         -29,
         -0
       ],
-      "style": "LOW_TECH",
+      "style": "ELS_MILITARY",
       "width": 5
     }
   ],
