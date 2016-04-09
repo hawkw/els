@@ -1,0 +1,11 @@
+{
+    "id":"els_awacs",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.AWACSystemAI",
+
+    "statsScript":"data.shipsystems.scripts.AWACSystem",
+
+    "useSound":"system_ammo_feeder",
+    "outOfUsesSound":"gun_out_of_ammo",
+}
