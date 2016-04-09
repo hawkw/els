@@ -19,14 +19,14 @@ public class ExcimerCritical implements BeamEffectPlugin {
     // placeholder, please change this once you have a nice explosion sound :)
     private static final String SFX = "els_kinetic_crit";
 
-	private IntervalUtil fireInterval = new IntervalUtil(0.2f, 0.3f);
+	private IntervalUtil fireInterval = new IntervalUtil(0.1f, 1.0f);
 
     @Override
     public void advance(float amount, CombatEngineAPI engine, BeamAPI beam) {
         if (beam.getDamageTarget() instanceof ShipAPI &&
-            beam.getBrightness() > 1.0) {
+            beam.getBrightness() >= 1.0) {
 
-            fireInterval.advance(beam.getDamage().getDpsDuration());
+            fireInterval.advance(amount);
 
             if (fireInterval.intervalElapsed()) {
                 ShipAPI ship = (ShipAPI) beam.getDamageTarget();
@@ -44,7 +44,7 @@ public class ExcimerCritical implements BeamEffectPlugin {
                                                   new Vector2f());
                     // apply the extra damage to the target
                     engine.applyDamage(ship, point,   // where to apply damage
-                                       beam.getDamage().getDamage(),
+                                       350,
                                        DamageType.ENERGY, // damage type
                                        0,    // amount of EMP damage (none)
                                        false, // does this bypass shields? (no)
