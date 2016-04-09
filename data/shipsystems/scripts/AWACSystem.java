@@ -121,7 +121,7 @@ public class AWACSystem implements ShipSystemStatsScript {
     @Override
     public StatusData getStatusData(int index, State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("Phased-array RADAR active", false);
+            return new StatusData("MESA targeting active", false);
         } else if (index == 1) {
             return new StatusData("weapon range +" + (int) (RANGE_BONUS * effectLevel) + "%", false);
         } else if (index == 2) {
