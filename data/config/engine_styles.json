@@ -1,0 +1,14 @@
+{
+    "ELS_MILITARY":{
+		"engineColor":[255,125,100,255],
+        "engineGlowGlowMult":2.2,
+		"contrailParticleSizeMult":1.1,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1.25,
+		"contrailMaxSpeedMult":0.75,
+		"contrailAngularVelocityMult":0.75,
+		"contrailColor":[60,60,60,60],
+		"contrailCampaignColor":[255,125,100,150],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+}
