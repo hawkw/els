@@ -1,9 +1,9 @@
 {
     "displayName": "Fast Attack",
-    "fluxCapacitors": 3,
-    "fluxVents": 20,
+    "fluxCapacitors": 7,
+    "fluxVents": 15,
     "hullId": "els_chevalier",
-    "hullMods": ["auxiliarythrusters"],
+    "hullMods": [],
     "quality": 0.5,
     "variantId": "els_chevalier_std",
     "weaponGroups": [
