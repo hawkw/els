@@ -10,7 +10,7 @@
 	"explosionColor":[255,175,125,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":15, # purely visual
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":15,
+					"range":20,
 					"explosionSpec":{"duration":0.075f,
 									 "radius":20,
 									 "coreRadius":15, # full damage within core radius - also equal to proximity fuse range
@@ -24,8 +24,8 @@
 									 "sound":"explosion_flak"},
 					},
 	"engineSpec":{"turnAcc":1800,
-				  "turnRate":300,
-				  "acc":2800,
+				  "turnRate":500,
+				  "acc":2000,
 				  "dec":800},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-5, 0],
