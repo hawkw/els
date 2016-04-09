@@ -9,7 +9,10 @@ import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.ShipAPI;
+<<<<<<< HEAD
 import com.fs.starfarer.api.util.IntervalUtil;
+=======
+>>>>>>> 86c44c41ebb1751d741563f4f79861dca1c257c1
 
 import java.awt.Color;
 
