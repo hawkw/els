@@ -34,7 +34,7 @@ public class AWACSystem implements ShipSystemStatsScript {
         = EnumSet.of(WeaponType.BALLISTIC, WeaponType.ENERGY);
 
     //Creates a hashmap that keeps track of what ships are receiving the benefits.
-    private Set<ShipAPI> buffed = new HashSet<ShipAPI>();
+    private final HashSet<ShipAPI> buffed = new HashSet<ShipAPI>();
 
     private static final String staticID = "adeptAWACS";
 
@@ -74,22 +74,12 @@ public class AWACSystem implements ShipSystemStatsScript {
         //         });
 
         for (ShipAPI ship : engine.getShips()) {
-            if (ship.isAlive() && ship != this_ship &&
-                ship.getOwner() == this_ship.getOwner() &&
-                MathUtils.getDistance(ship, this_ship) <= RANGE)
-                    buffed.add(ship);
-        }
+            if (!ship.isAlive() || ship.getOwner() != this_ship.getOwner()) {
+                continue;
+            }
 
-        for (ShipAPI ship : buffed) {
             MutableShipStatsAPI stats = ship.getMutableStats();
-            if (MathUtils.getDistance(ship, this_ship) > RANGE) {
-                stats.getAutofireAimAccuracy().unmodify(staticID);
-                stats.getBallisticWeaponRangeBonus().unmodify(staticID);
-                stats.getEnergyWeaponRangeBonus().unmodify(staticID);
-                stats.getSensorStrength().unmodify(staticID);
-                ship.setWeaponGlow(0f, WEAPON_GLOW, WEAPONS_AFFECTED);
-                buffed.remove(ship);
-            } else {
+            if (MathUtils.getDistance(ship, this_ship) <= RANGE) {
                 stats.getAutofireAimAccuracy()
                      .modifyFlat(staticID, ACCURACY_BONUS);
                 stats.getBallisticWeaponRangeBonus()
@@ -97,12 +87,18 @@ public class AWACSystem implements ShipSystemStatsScript {
                 stats.getEnergyWeaponRangeBonus()
                     .modifyPercent(staticID, RANGE_BONUS);
                 ship.setWeaponGlow(effectLevel, WEAPON_GLOW, WEAPONS_AFFECTED);
+                buffed.add(ship);
+            } else if (buffed.contains(ship)) {
+                stats.getAutofireAimAccuracy().unmodify(staticID);
+                stats.getBallisticWeaponRangeBonus().unmodify(staticID);
+                stats.getEnergyWeaponRangeBonus().unmodify(staticID);
+                stats.getSensorStrength().unmodify(staticID);
+                ship.setWeaponGlow(0f, WEAPON_GLOW, WEAPONS_AFFECTED);
+                buffed.remove(ship);
             }
+
         }
 
-        // buffed.stream()
-        //       .filter(ship -> MathUtils.getDistance(ship, this_ship) > RANGE)
-        //       .forEach(this::unmodify);
     }
 
     @Override
