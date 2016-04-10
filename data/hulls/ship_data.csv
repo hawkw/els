@@ -1,4 +1,4 @@
 name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,number
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Adept,els_adept,Frigate,els_awacs,6,750,75,2200,2500,200,35,155,220,175,120,360,100,OMNI,,150,0.3,0.6,,,10,20,30,40,1,40,10,11000,10,20,180,0.25,5,5,,205
+Adept,els_adept,Frigate,els_mesa_radar,6,750,75,2200,2500,200,35,155,220,175,120,360,100,OMNI,,150,0.3,0.6,,,10,20,30,40,1,40,10,11000,10,20,180,0.25,5,5,,205
 Chevalier,els_chevalier,Destroyer,maneuveringjets,12,5000,575,7500,,350,85,135,145,90,45,60,400,OMNI,,150,0.4,1.0,,,40,80,60,80,2,,10,35000,5,12,380,0.2,11,,,105

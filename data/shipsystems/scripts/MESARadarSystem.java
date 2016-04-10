@@ -16,7 +16,7 @@ import java.util.HashSet;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
-public class AWACSystem implements ShipSystemStatsScript {
+public class MESARadarSystem implements ShipSystemStatsScript {
 
     private CombatEngineAPI engine;
     private ShipAPI host;
