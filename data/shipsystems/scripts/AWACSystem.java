@@ -25,27 +25,15 @@ public class AWACSystem implements ShipSystemStatsScript {
     private static final float ACCURACY_BONUS = 0.75f;
     private static final float RANGE_BONUS = 25f;
     private static final float SENSOR_BONUS = 25f;
-    private static final Vector2f ZERO = new Vector2f();
     private static final Color WEAPON_GLOW = new Color(150, 255, 200, 100);
-
-    private final IntervalUtil interval = new IntervalUtil(1.5f, 1.5f);
 
     private final EnumSet<WeaponType> WEAPONS_AFFECTED
         = EnumSet.of(WeaponType.BALLISTIC, WeaponType.ENERGY);
 
-    //Creates a hashmap that keeps track of what ships are receiving the benefits.
     private final HashSet<ShipAPI> buffed = new HashSet<ShipAPI>();
 
     private static final String staticID = "adeptAWACS";
 
-    // private Consumer<ShipAPI> unmodify = (ShipAPI ship) -> {
-    //     MutableShipStatsAPI stats = ship.getMutableStats();
-    //     stats.getAutofireAimAccuracy().unmodify(staticID);
-    //     stats.getBallisticWeaponRangeBonus().unmodify(staticID);
-    //     stats.getEnergyWeaponRangeBonus().unmodify(staticID);
-    //     stats.getSensorStrength().unmodify(staticID);
-    //     buffed.remove(ship);
-    // };
 
     @Override
     public void apply(MutableShipStatsAPI my_stats,
@@ -57,21 +45,6 @@ public class AWACSystem implements ShipSystemStatsScript {
             buffed.clear();
         }
         ShipAPI this_ship = (ShipAPI) my_stats.getEntity();
-
-        // engine.getShips().stream()
-        //       .filter(ship -> ship.isAlive() && ship != this_ship &&
-        //                       ship.getOwner() == this_ship.getOwner() &&
-        //                       MathUtils.getDistance(ship, this_ship) <= RANGE)
-        //       .forEach(ship -> {
-        //             MutableShipStatsAPI stats = ship.getMutableStats();
-        //             stats.getAutofireAimAccuracy()
-        //                  .modifyFlat(staticID, ACCURACY_BONUS);
-        //             stats.getBallisticWeaponRangeBonus()
-        //                 .modifyPercent(staticID, RANGE_BONUS);
-        //             stats.getEnergyWeaponRangeBonus()
-        //                 .modifyPercent(staticID, RANGE_BONUS);
-        //             buffed.put(ship)
-        //         });
 
         for (ShipAPI ship : engine.getShips()) {
             if (!ship.isAlive() || ship.getOwner() != this_ship.getOwner()) {
@@ -115,15 +88,17 @@ public class AWACSystem implements ShipSystemStatsScript {
     }
 
     @Override
-    public StatusData getStatusData(int index, State state, float effectLevel) {
-        if (index == 0) {
-            return new StatusData("improved fire control", false);
-        } else if (index == 1) {
-            return new StatusData("weapon range +" + (int) (RANGE_BONUS * effectLevel) + "%", false);
-        } else if (index == 2) {
-            return new StatusData("sensor range + " + (int) (SENSOR_BONUS * effectLevel) + "%", false);
+    public StatusData getStatusData(int index, State state, float effectLvl) {
+        switch (index) {
+            case 0: return new StatusData("improved fire control", false);
+            case 1: return new StatusData(
+                "weapon range +" + (int) (RANGE_BONUS * effectLvl) + "%",
+                false);
+            case 2: return new StatusData(
+                "sensor range + " + (int)(SENSOR_BONUS * effectLvl) + "%",
+                false);
+            default: return null;
         }
-        return null;
     }
 
     public void init(CombatEngineAPI engine, ShipAPI host) {
