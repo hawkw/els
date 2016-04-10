@@ -1,4 +1,5 @@
-{
+{	# TEST VERSION ONLY
+	# REMOVE BEFORE FLIGHT
 	"id":"els_excimer_2",  # this id must match what's in the spreadsheet
 	"specClass":"beam",
 	"collisionClass":"RAY",

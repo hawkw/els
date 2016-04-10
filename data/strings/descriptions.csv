@@ -14,6 +14,7 @@ els_sirocco,WEAPON,Basically what happens when you toss a handful of ferrous gra
 els_pdlaser,WEAPON,"A phased-array solid state laser designed to intercept inbound ordnance. The beam's focusing optics are optimised for burning through missiles, so its performance suffers against armour and shields.",,,Point Defense
 els_hmaser,WEAPON,"A high-energy hydrogen maser. Though demanding on a ship's reactor, the Heavy Maser proves an effective support weapon, as its withering RF beam easily boils armour and disrupts enemy avionics.",,,Close Support
 els_excimer,WEAPON,"A gigawatt-range excimer laser driven by a built-in capacitor bank. While each burst deals intense damage, the capacitors must be recharged after six shots, making this weapon well suited for a fast-attack role.",,,Assault
+els_excimer_2,WEAPON,Excimer Lance Test Article. FOR PLAYTESTING PURPOSES ONLY. REMOVE BEFORE RELEASE.,,,Assault
 els_chevalier,SHIP,The Chevalier-class destroyer is a versatile manouvre combatant that serves equally well as a fast-attack element in larger fleets or as the centrepiece of smaller patrols.,,,
 els_adept,SHIP,"This frigate serves as a dedicated sensor platform, carrying high-resolution sensors and C3I equipment that improve the detection and targeting systems of allied vessels. The Adept's multi-mode electronically-scanned array (MESA) RADAR can be tuned in range and resolution to support both long-range strategic early warning and tactical targeting capabilities. While not a primary combat spacecraft, the Adept is equipped to defend itself when engaged.
 
