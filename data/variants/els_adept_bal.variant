@@ -5,7 +5,6 @@
     "hullId": "els_adept",
     "hullMods": [
         "extendedshieldemitter",
-        "targetingunit"
     ],
     "quality": 0.5,
     "variantId": "els_adept_bal",
@@ -15,7 +14,7 @@
             "mode": "LINKED",
             "weapons": {
                 "WS0002": "els_coilac",
-                "WS0003": "taclaser"
+                "WS0003": "els_coilac"
             }
         },
         {

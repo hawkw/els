@@ -1,16 +1,16 @@
 {
     "displayName": "Patrol",
-    "fluxCapacitors": 9,
+    "fluxCapacitors": 11,
     "fluxVents": 20,
     "hullId": "els_chevalier",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "quality": 0.5,
     "variantId": "els_chevalier_patrol",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0000": "els_hmaser"}
+            "weapons": {"WS0000": "pulselaser"}
         },
         {
             "autofire": true,

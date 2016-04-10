@@ -1,7 +1,7 @@
 {
-    "displayName": "Fast Attack",
-    "fluxCapacitors": 7,
-    "fluxVents": 15,
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 13,
     "hullId": "els_chevalier",
     "hullMods": [],
     "quality": 0.5,
@@ -10,7 +10,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0000": "els_excimer"}
+            "weapons": {"WS0000": "els_hmaser"}
         },
         {
             "autofire": true,
@@ -33,9 +33,8 @@
             "mode": "ALTERNATING",
             "weapons": {
                 "WS0001": "els_countermissile_3cell",
-                "WS0002": "els_countermissile_3cell",
+                "WS0002": "els_countermissile_3cell"
             }
         }
-
     ]
 }

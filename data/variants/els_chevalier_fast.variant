@@ -1,0 +1,41 @@
+{
+    "displayName": "Fast Attack",
+    "fluxCapacitors": 15,
+    "fluxVents": 8,
+    "hullId": "els_chevalier",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "els_chevalier_fast",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0000": "els_excimer"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_hatf_rack",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_glaive,
+                "WS0004": "els_glaive"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_pdlaser",
+                "WS0006": "els_pdlaser"
+            }
+        }
+
+    ]
+}
