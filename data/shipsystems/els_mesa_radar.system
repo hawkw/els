@@ -2,9 +2,9 @@
     "id":"els_mesa_radar",
     "type":"STAT_MOD",
     "aiType":"CUSTOM",
-    "aiScript":"data.shipsystems.scripts.ai.AWACSystemAI",
+    "aiScript":"data.shipsystems.scripts.ai.MESARadarAI",
 
-    "statsScript":"data.shipsystems.scripts.MESARadar",
+    "statsScript":"data.shipsystems.scripts.MESARadarSystem",
 
     "useSound":"system_high_energy_focus_activate",
 	"deactivateSound":"system_high_energy_focus_deactivate",
