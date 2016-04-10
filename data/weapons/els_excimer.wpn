@@ -1,7 +1,6 @@
 {
-	"id":"els_excimer",  # this id must match what's in the spreadsheet
+	"id":"els_excimer_",  # this id must match what's in the spreadsheet
 	"specClass":"beam",
-	"beamEffect":"data.scripts.weapons.ExcimerCritical",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"type":"ENERGY",
