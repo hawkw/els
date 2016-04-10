@@ -1,5 +1,5 @@
 {
-    "id":"els_awacs",
+    "id":"els_mesa_radar",
     "type":"STAT_MOD",
     "aiType":"CUSTOM",
     "aiScript":"data.shipsystems.scripts.ai.AWACSystemAI",
