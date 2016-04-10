@@ -9,7 +9,8 @@ Ra'ad SRAM Rack,els_raad_rack,2,600,900,,300,1200,175,8,6,6,,,ENERGY,0,,0,1,2,0.
 Sirocco Coilgun,els_sirocco,2,1500,750,,80,50,10,40,12,,,,KINETIC,75,,0.2,1.4,5,0.1,0,6,2,20,,1250,,,77,,77
 Trident Ra'ad Pod,els_raad_pod,2,1200,900,,300,1200,175,8,12,24,,,ENERGY,0,,0,1,3,0.1,0,0,2,15,,1000,300,3.3,200,STRIKE,123.55
 Heavy Maser,els_hmaser,3,2500,1000,240,,120,0,15,12,,,,HIGH_EXPLOSIVE,,320,0.1,0.1,,,,,,,2400,,,,,,20
-Excimer Lance,els_excimer,2,2000,750,350,,,0,25,12,6,0.5,3,ENERGY,,750,,0.2,1,0.2,,,,,4000,,,,,,15.7
+Excimer Lance,els_excimer,2,2000,750,350,,,0,25,12,6,0.2,3,ENERGY,,750,,0.2,1,0.2,,,,,4000,,,,,,15.7
+Excimer Lance 2,els_excimer,2,2000,750,700,,,0,25,12,6,0.2,3,KINETIC,,750,,0.2,1,0.2,,,,,4000,,,,,,15.72
 Zone Defence Laser,els_pdlaser,2,400,450,75,,,6,115,7,,,,FRAGMENTATION,,25,0.1,0.1,,,,,,,3000,,,,,PD,100
 Twin Mag Flak,els_magflaktwin,2,2200,475,,120,50,200,60,12,,,,FRAGMENTATION,60,,0.1,0.60,2,0.1,0,8,1,10,,850,,,30,PD,250
 Mag Flak,els_magflak,1,1200,550,,150,70,250,50,8,,,,FRAGMENTATION,60,,0.1,0.60,,,0,9,1,10,,850,,,30,PD,125
