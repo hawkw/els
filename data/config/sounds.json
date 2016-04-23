@@ -11,4 +11,7 @@
 	"els_sirocco_fire":[{"file":"sounds/ELS/fx/els_siroccofire.ogg","pitch":1.5, "volume":0.5}],
 	"els_sirocco_charge":[{"file":"sounds/ELS/fx/els_siroccocharge.ogg","pitch":1.5, "volume":0.5}],
 	"els_kinetic_crit":[{"file":"sounds/ELS/fx/els_kinetic_crit.ogg","pitch":1.0, "volume":1.0}],
+	"els_blaster_charge":[{"file":"sounds/ELS/fx/els_microbeam.ogg","pitch":1.5, "volume":0.5}],
+	"els_blaster_fire":[{"file":"sounds/ELS/fx/els_blaster_mixdown.ogg","pitch":1.0, "volume":1.0}],
+	"els_microbeam":[{"file":"sounds/ELS/fx/els_microbeam.ogg","pitch":1.0, "volume":1.0}],
 }

@@ -24,8 +24,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "els_glaive,
-                "WS0004": "els_glaive"
+                "WS0003": "els_glaive",
+                "WS0004": "els_glaive",
             }
         },
         {
