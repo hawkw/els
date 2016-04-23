@@ -16,6 +16,7 @@
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[6, 0],
 	"hardpointAngleOffsets":[0],
+	"renderHints":[RENDER_BARREL_BELOW],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
