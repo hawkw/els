@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
     "fluxCapacitors": 10,
-    "fluxVents": 13,
+    "fluxVents": 15,
     "hullId": "els_chevalier",
     "hullMods": [],
     "quality": 0.5,
@@ -16,8 +16,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "els_sirocco",
-                "WS0004": "els_sirocco"
+                "WS0003": "els_coilac_heavy",
+                "WS0004": "els_coilac_heavy"
             }
         },
         {
