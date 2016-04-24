@@ -21,7 +21,7 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "pdburst"}
+            "weapons": {"WS0001": "els_pdlaser"}
         }
     ]
 }
