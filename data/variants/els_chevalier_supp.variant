@@ -5,7 +5,7 @@
     "hullId": "els_chevalier",
     "hullMods": ["targetingunit"],
     "quality": 0.5,
-    "variantId": "els_chevalier_std",
+    "variantId": "els_chevalier_supp",
     "weaponGroups": [
         {
             "autofire": true,
