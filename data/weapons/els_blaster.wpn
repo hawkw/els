@@ -27,6 +27,6 @@
 					   "particleCount":32,
 					   "particleColor":[ 73, 151, 208, 255]},
 	"projectileSpecId":"els_blasterbolt",  # projectile that will be fired
-	"fireSoundOne":"els_blaster_charge",
+	#"fireSoundOne":"els_blaster_charge",
 	"fireSoundTwo":"els_blaster_fire",
 }
