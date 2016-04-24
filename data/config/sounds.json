@@ -4,7 +4,7 @@
 	#Weapons
 	"els_miniflakker_fire":[{"file":"sounds/ELS/fx/els_miniflakfire.ogg","pitch":1, "volume":0.3}],
 	"els_magflak_charge":[{"file":"sounds/ELS/fx/els_siroccocharge.ogg","pitch":0.5, "volume":0.3}],
-	"els_magflak_fire":[{"file":"sounds/ELS/fx/els_miniflakfire.ogg","pitch":0.3, "volume":1.0}],
+	"els_magflak_fire":[{"file":"sounds/ELS/fx/els_miniflakfire.ogg","pitch":0.7, "volume":0.5}],
 	"els_kineticwham_fire":[{"file":"sounds/ELS/fx/els_kineticwham.ogg","pitch":1, "volume":0.5}],
 	"els_heavykineticwham_fire":[{"file":"sounds/ELS/fx/els_heavykineticwham.ogg","pitch":1, "volume":0.5}],
 	"els_epee_fire":[{"file":"sounds/ELS/fx/els_coilgun_fire.ogg","pitch":1.5, "volume":0.5}],
