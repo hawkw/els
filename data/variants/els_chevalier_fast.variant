@@ -1,7 +1,7 @@
 {
     "displayName": "Fast Attack",
-    "fluxCapacitors": 9,
-    "fluxVents": 10,
+    "fluxCapacitors": 10,
+    "fluxVents": 7,
     "hullId": "els_chevalier",
     "hullMods": ["fluxbreakers"],
     "quality": 0.5,
@@ -24,8 +24,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "els_glaive",
-                "WS0004": "els_glaive"
+                "WS0003": "els_sirocco",
+                "WS0004": "els_sirocco"
             }
         },
         {
