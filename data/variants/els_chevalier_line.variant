@@ -1,9 +1,9 @@
 {
-    "displayName": "Patrol",
-    "fluxCapacitors": 11,
-    "fluxVents": 20,
+    "displayName": "Line",
+    "fluxCapacitors": 10,
+    "fluxVents": 19,
     "hullId": "els_chevalier",
-    "hullMods": [],
+    "hullMods": ["targetingunit"],
     "quality": 0.5,
     "variantId": "els_chevalier_patrol",
     "weaponGroups": [
@@ -26,8 +26,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "els_magflaktwin",
-                "WS0004": "els_magflaktwin"
+                "WS0003": "els_magflak",
+                "WS0004": "els_magflak"
             }
         }
     ]

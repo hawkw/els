@@ -1,0 +1,34 @@
+{
+    "displayName": "Close Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 20,
+    "hullId": "els_chevalier",
+    "hullMods": ["targetingunit"],
+    "quality": 0.5,
+    "variantId": "els_chevalier_std",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0000": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_glaive",
+                "WS0004": "els_glaive"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser"
+            }
+        }
+    ]
+}

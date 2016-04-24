@@ -15,4 +15,4 @@ Zone Defence Laser,els_pdlaser,2,400,450,75,,,6,115,7,,,,FRAGMENTATION,,25,0.1,0
 Twin Mag Flak,els_magflaktwin,2,2200,475,,120,50,200,60,12,,,,FRAGMENTATION,60,,0.1,0.60,2,0.1,0,8,1,10,,850,,,30,PD,250
 Mag Flak,els_magflak,1,1200,550,,150,70,250,50,8,,,,FRAGMENTATION,60,,0.1,0.60,,,0,9,1,10,,850,,,30,PD,125
 Countermissile Launcher,els_countermissile_3cell,3,650,900,,150,,100,20,6,12,0.5,3,FRAGMENTATION,0,0,0.1,1.2,1,2,8,1,10,10,,1000,300,1.0,40,"PD,PD_ONLY,GUIDED_POOR",67
-Positron Mortar,els_blaster,3,5000,700,,350,250,75,25,12,,,,ENERGY,400,,0.3,0.55,1,,,,,,,700,,,300,,4.75
+Positron Mortar,els_blaster,3,5000,700,,350,0,75,25,12,10,0.8,5,ENERGY,350,,0.3,0.25,1,,2,8,2,10,,700,,,300,,4.75
