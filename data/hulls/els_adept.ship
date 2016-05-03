@@ -80,7 +80,9 @@
   ],
   "builtInWeapons": {
     "WS0004": "blinker_red",
-    "WS0005": "blinker_green"
+    "WS0005": "blinker_green",
+    "WS0006": "els_hulldefgun",
+    "WS0007": "els_hulldefgun"
   },
   "center": [
     40,
@@ -194,6 +196,30 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "DECORATIVE"
+    },
+    {
+      "angle": 135,
+      "arc": 270,
+      "id": "WS0006",
+      "locations": [
+        -5,
+        14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -135,
+      "arc": 270,
+      "id": "WS0007",
+      "locations": [
+        -5,
+        -14
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
     }
   ],
   "width": 80

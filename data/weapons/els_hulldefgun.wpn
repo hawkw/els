@@ -1,0 +1,25 @@
+{
+	"id":"els_hulldefgun",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/ELS/weapons/els_hulldefgun.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_hulldefgun.png",
+	"turretOffsets":[3,1, 3, -1],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[3,1, 3, -1],
+	"hardpointAngleOffsets":[0,0],
+	"barrelMode":"ALTERNATING",
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":2.0,
+					   "spread":105.0,
+					   "particleSizeMin":3.0,
+					   "particleSizeRange":4.0,
+					   "particleDuration":0.09,
+					   "particleCount":15,
+					   "particleColor":[255,155,100,225]},
+	"projectileSpecId":"els_hulldefgun_shot",  # projectile that will be fired
+	"fireSoundTwo":"els_hulldefgun_fire",
+}
