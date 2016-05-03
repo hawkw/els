@@ -11,8 +11,10 @@ Although it lacks a guidance system, Hatf rockets move much faster than many com
 
 This mounting is an external rack storing three Hatf rockets.",,,Strike
 els_sirocco,WEAPON,Basically what happens when you toss a handful of ferrous gravel into a big and mean electromagnetic coil.,,,Close Support
-els_pdlaser,WEAPON,"A phased-array solid state laser designed to intercept inbound ordnance. The beam's focusing optics are optimised for burning through missiles, so its performance suffers against armour and shields.",,,Point Defense
+els_zdmaser,WEAPON,"A low-energy microwave emitter designed to intercept inbound ordnance. While the beam is ineffective against the shields and armour of larger craft, its high-energy RF discharge can still cause damage to their electrical systems.",,,Point Defense
 els_hmaser,WEAPON,"A high-energy hydrogen maser. Though demanding on a ship's reactor, the Heavy Maser proves an effective support weapon, as its withering RF beam easily boils armour and disrupts enemy avionics.",,,Close Support
+els_stinger,WEAPON,"The distinctive green tracers fired by this mark of .50cal machine gun are famous throughout the sector for their punishing effect on shields. The Stinger's kinetic energy rounds are almost completely powerless against armour, but they can cause damage to external weapon mounts and systems.",,,Close Support
+els_twinstinger,WEAPON,Two Stinger .50cal machine guns in a dual turret. The larger mounting provides a more stable firing platform and improved ammunition handling systems.,,,
 els_excimer,WEAPON,"A gigawatt-range excimer laser driven by a built-in capacitor bank. While each burst deals intense damage, the capacitors must be recharged after six shots, making this weapon well suited for a fast-attack role.",,,Assault
 els_excimer_2,WEAPON,Excimer Lance Test Article. FOR PLAYTESTING PURPOSES ONLY. REMOVE BEFORE RELEASE.,,,Assault
 els_epee,WEAPON,"A long-range support and shield suppression railgun. The Épée fires hypervelocity ferrous slugs boiling from induction heating within the weapon's high-intensity magnetic rails, giving it improved armour penetration over other kinetic weapons. However, the weapon requires a long cool-down period between firing, to dissipate heat and recharge its capacitors.",,,Close Support
