@@ -1,0 +1,29 @@
+{
+	"id":"els_twinmg",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":350,
+	"turretSprite":"graphics/ELS/weapons/els_twinriotgun_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/els_twinriotgun_turret_recoil.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_twinriotgun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/els_twinriotgun_hardpoint_recoil.png",
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[16, -6, 16, 6],
+	"turretAngleOffsets":[-1, 1],
+	"hardpointOffsets":[16, -6, 16, 6],
+	"hardpointAngleOffsets":[-1 ,1],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"LINKED", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":6.0,   # only used if animationType = MUZZLE_FLASH
+		"spread":175.0,
+		"particleSizeMin":3.0,
+		"particleSizeRange":12.0,
+		"particleDuration":0.09,
+		"particleCount":28,
+		"particleColor":[255,165,105,225]},
+	"projectileSpecId":"els_mg_shot",  # projectile that will be fired
+	"fireSoundTwo":"els_stinger_fire",
+}
