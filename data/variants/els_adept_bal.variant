@@ -3,9 +3,7 @@
     "fluxCapacitors": 2,
     "fluxVents": 10,
     "hullId": "els_adept",
-    "hullMods": [
-        "extendedshieldemitter",
-    ],
+    "hullMods": ["extendedshieldemitter"],
     "quality": 0.5,
     "variantId": "els_adept_bal",
     "weaponGroups": [
@@ -20,7 +18,11 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "els_miniflakker"}
+            "weapons": {
+                "WS0001": "els_miniflakker",
+                "WS0006": "els_hulldefgun",
+                "WS0007": "els_hulldefgun"
+            }
         }
     ]
 }

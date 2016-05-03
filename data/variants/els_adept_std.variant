@@ -21,7 +21,11 @@
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "els_pdlaser"}
+            "weapons": {
+                "WS0001": "els_zdmaser",
+                "WS0006": "els_hulldefgun",
+                "WS0007": "els_hulldefgun"
+            }
         }
     ]
 }

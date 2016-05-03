@@ -24,8 +24,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "els_pdlaser",
-                "WS0006": "els_pdlaser"
+                "WS0005": "els_zdmaser",
+                "WS0006": "els_zdmaser"
             }
         },
         {
