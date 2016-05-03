@@ -25,5 +25,6 @@
 		"particleCount":28,
 		"particleColor":[255,165,105,225]},
 	"projectileSpecId":"els_stinger_shot",  # projectile that will be fired
+	"fireSoundOne":"els_stinger_load",
 	"fireSoundTwo":"els_stinger_fire",
 }

@@ -16,4 +16,5 @@
 	"els_microbeam":[{"file":"sounds/ELS/fx/els_microbeam.ogg","pitch":1.0, "volume":1.0}],
 	"els_hulldefgun_fire":[{"file":"sounds/ELS/fx/istl_riotgunfire.ogg","pitch":1.0, "volume":0.3}],
 	"els_stinger_fire":[{"file":"sounds/ELS/fx/els_stingerfire.ogg","pitch":1.0, "volume":0.5}],
+	"els_stinger_load":[{"file":"sounds/ELS/fx/els_stingerload.ogg","pitch":1, "volume":0.10}],
 }
