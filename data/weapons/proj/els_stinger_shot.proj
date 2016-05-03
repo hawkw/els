@@ -1,19 +1,19 @@
 {
-	"id":"els_mg_shot",
+	"id":"els_stinger_shot",
 	"specClass":"projectile",
 	"onHitEffect":"data.scripts.weapons.StingerSparks",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"length":80.0,
+	"length":90.0,
 	"width":3.0,
-	"fadeTime":0.4,
+	"fadeTime":0.8,
 	"fringeColor":[100,255,215,155],
 	"coreColor":[175,255,200,255],
-	"glowColor":[0,255,25,50],
+	"glowColor":[0,255,25,40],
 	"glowRadius":6,
 	"hitGlowRadius": 8,
 	"textureScrollSpeed":-24.0,
 	"pixelsPerTexel":1.0,
-	"bulletSprite":"graphics/ELS/missiles/els_mag_slug.png"
+	"bulletSprite":"graphics/ELS/missiles/els_stinger_bolt.png"
 }

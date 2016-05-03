@@ -1,5 +1,5 @@
 {
-	"id":"els_twinmg",  # this id must match what's in the spreadsheet
+	"id":"els_twinstinger",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"MEDIUM",
@@ -24,6 +24,6 @@
 		"particleDuration":0.09,
 		"particleCount":28,
 		"particleColor":[255,165,105,225]},
-	"projectileSpecId":"els_mg_shot",  # projectile that will be fired
+	"projectileSpecId":"els_stinger_shot",  # projectile that will be fired
 	"fireSoundTwo":"els_stinger_fire",
 }

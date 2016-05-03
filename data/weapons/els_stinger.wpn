@@ -24,6 +24,6 @@
 		"particleDuration":0.09,
 		"particleCount":28,
 		"particleColor":[255,165,105,225]},
-	"projectileSpecId":"els_mg_shot",  # projectile that will be fired
+	"projectileSpecId":"els_stinger_shot",  # projectile that will be fired
 	"fireSoundTwo":"els_stinger_fire",
 }
