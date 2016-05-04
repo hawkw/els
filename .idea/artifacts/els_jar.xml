@@ -3,7 +3,9 @@
     <output-path>$PROJECT_DIR$/jars/</output-path>
     <root id="archive" name="els.jar">
       <element id="module-output" name="els" />
-      <element id="library" level="project" name="scala-sdk-2.11.8" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>
