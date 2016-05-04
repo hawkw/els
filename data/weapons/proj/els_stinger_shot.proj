@@ -1,7 +1,7 @@
 {
 	"id":"els_stinger_shot",
 	"specClass":"projectile",
-	"onHitEffect":"data.scripts.weapons.StingerSparks",
+	"onHitEffect":"data.weapons.StingerSparks",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
