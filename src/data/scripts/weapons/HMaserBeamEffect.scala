@@ -4,13 +4,13 @@ import java.awt.Color
 
 import com.fs.starfarer.api.combat._
 import com.fs.starfarer.api.util.IntervalUtil
-
 import data.util.VectorUtil.Vector2fOps
-
 import org.lazywizard.lazylib.MathUtils.{
-  getRandomNumberInRange => randomNumBetween
-, getPointOnCircumference => pointOnCircumference
+  getPointOnCircumference => pointOnCircumference
+, getRandomNumberInRange => randomNumBetween
 }
+
+import scala.language.postfixOps
 /**
   * Created by hawk on 5/4/16.
   */
@@ -26,6 +26,7 @@ class HMaserBeamEffect extends BeamEffectPlugin {
 
           if (ship.getShield == null ||
               !ship.getShield.isWithinArc(beam.getTo)) {
+
             val (to, from) = (beam.getTo, beam.getFrom)
             val dir = to - from
             if (dir.lengthSquared > 0) dir.normalise()

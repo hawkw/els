@@ -29,6 +29,12 @@ extends OnHitEffectPlugin {
 
   private[this] val half_angle = coneAngle/2
 
+  @inline private[this] final def randomAngle(facing: Float): Float
+    = randomNumBetween( facing - half_angle, facing + half_angle)
+
+  @inline private[this] final def randomVelocity(speed: Float): Float
+    = randomNumBetween(speed * -minVelocity, speed * -maxVelocity)
+
   override def onHit( projectile: DamagingProjectileAPI
                     , target: CombatEntityAPI
                     , point: Vector2f
@@ -36,14 +42,12 @@ extends OnHitEffectPlugin {
                     , engine: CombatEngineAPI): Unit
     = target match {
         case ship: ShipAPI if !shieldHit && Math.random <= sparkChance =>
-          val speed: Float = projectile.getVelocity.length
-          val facing: Float = projectile.getFacing
+          val speed = projectile.getVelocity.length
+          val facing = projectile.getFacing
           for { _ <- 0 until particleCount
-                angle = randomNumBetween( facing - half_angle
-                                        , facing + half_angle)
-                velocity = randomNumBetween( speed * -minVelocity
-                                           , speed * -maxVelocity )
-                vector = pointOnCircumference(null, angle, velocity)
+                vector = pointOnCircumference( null
+                                             , randomAngle(facing)
+                                             , randomVelocity(speed))
               } {
             engine addHitParticle ( point
                                   , vector

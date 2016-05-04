@@ -15,7 +15,7 @@ extends SparksOnHitEffect{
   override val particleBrightness = 255f
   override val particleDuration = 0.5f
 
-  override val coneAngle = 100f
+  override val coneAngle = 90f
   override val minVelocity = 0.07f
   override val maxVelocity = 0.175f
 }
