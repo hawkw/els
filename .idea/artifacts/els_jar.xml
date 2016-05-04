@@ -3,10 +3,7 @@
     <output-path>$PROJECT_DIR$/jars/els</output-path>
     <root id="archive" name="els.jar">
       <element id="module-output" name="els" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../LazyLib/jars/LazyLib.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Contents/Resources/Java/starfarer.api.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Contents/Resources/Java/lwjgl.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Contents/Resources/Java/lwjgl_util.jar" path-in-jar="/" />
+      <element id="library" level="project" name="scala-sdk-2.11.8" />
     </root>
   </artifact>
 </component>
