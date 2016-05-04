@@ -1,7 +1,7 @@
 {
 	"specClass":"beam",
 	"id":"els_hmaser",
-	"beamEffect":"data.weapons.HMaserBeamEffect",
+	"beamEffect":"data.scripts.weapons.HMaserBeamEffect",
 	"type":"ENERGY",
 	"size":"MEDIUM",
 	"collisionClass":"RAY",
