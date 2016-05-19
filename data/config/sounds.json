@@ -3,6 +3,7 @@
 
 	#Weapons
 	"els_miniflakker_fire":[{"file":"sounds/ELS/fx/els_miniflakfire.ogg","pitch":1, "volume":0.3}],
+	"els_gyro_fire":[{"file":"sounds/ELS/fx/els_gyromauler.ogg","pitch":1.0, "volume":1.0}],
 	"els_magflak_charge":[{"file":"sounds/ELS/fx/els_siroccocharge.ogg","pitch":0.5, "volume":0.3}],
 	"els_magflak_fire":[{"file":"sounds/ELS/fx/els_miniflakfire.ogg","pitch":0.7, "volume":0.5}],
 	"els_kineticwham_fire":[{"file":"sounds/ELS/fx/els_kineticwham.ogg","pitch":1, "volume":0.5}],
@@ -17,4 +18,5 @@
 	"els_hulldefgun_fire":[{"file":"sounds/ELS/fx/istl_riotgunfire.ogg","pitch":1.0, "volume":0.3}],
 	"els_stinger_fire":[{"file":"sounds/ELS/fx/els_stingerfire.ogg","pitch":1.0, "volume":0.5}],
 	"els_stinger_load":[{"file":"sounds/ELS/fx/els_stingerload.ogg","pitch":1, "volume":0.10}],
+
 }

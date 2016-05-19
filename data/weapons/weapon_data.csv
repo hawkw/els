@@ -20,3 +20,5 @@ Positron Mortar,els_blaster,3,5000,700,,350,0,75,25,12,10,0.8,5,ENERGY,350,,0.3,
 Hull Defence Gun,els_hulldefgun,0,125,275,,20,,1,105,2,25,3,25,FRAGMENTATION,2,,,0.1,1,,2,8,1.5,10,,800,,,0,"PD, SYSTEM",0.5
 Stinger Machine Gun,els_stinger,2,360,500,,16,4,2,50,6,120,8,15,KINETIC,10,,,0.55,15,0.072,3,10,1,10,,900,,,50,,1.60
 Twin Stinger Machine Gun,els_twinstinger,2,960,525,,16,4,2,45,12,240,16,20,KINETIC,11,,,0.55,15,0.072,2,8,1,14,,900,,,50,,1.60
+Heat Vent,els_heatvent,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,10
+Gyro Mauler,els_gyrocannon,2,2500,1000,,200,,200,20,13,,,,HIGH_EXPLOSIVE,210,,0,1.4,1,0.5,1,5,1,10,,1200,100,1.0,600,,1.818

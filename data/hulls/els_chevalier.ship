@@ -61,6 +61,9 @@
     -105.5,
     7.5
   ],
+  "builtInWeapons": {
+    "WS0007": "els_heatvent"
+  },
   "center": [
     36,
     108.5
@@ -197,6 +200,18 @@
       "mount": "HARDPOINT",
       "size": "MEDIUM",
       "type": "ENERGY"
+    },
+    {
+      "angle": 360,
+      "arc": 360,
+      "id": "WS0007",
+      "locations": [
+        -36.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
     }
   ],
   "width": 72

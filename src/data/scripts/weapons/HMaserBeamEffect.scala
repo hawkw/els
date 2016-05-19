@@ -4,7 +4,7 @@ import java.awt.Color
 
 import com.fs.starfarer.api.combat._
 import com.fs.starfarer.api.util.IntervalUtil
-import data.util.VectorUtil.Vector2fOps
+import data.util.Vector.Vector2fOps
 import org.lazywizard.lazylib.MathUtils.{
   getPointOnCircumference => pointOnCircumference
 , getRandomNumberInRange => randomNumBetween

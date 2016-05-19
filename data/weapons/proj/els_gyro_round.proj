@@ -1,0 +1,38 @@
+{
+	"id":"els_gyro_round",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/ELS/missiles/els_mag_slug.png",
+	"size":[5,10],
+	"center":[2.5,5],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.01, # time spent without the engine glow being rendered
+	"fadeTime":0.01, # fadeout duration
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":100,
+				  "acc":2000,
+				  "dec":160},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5.5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,155,100,255],
+						"contrailParticleSizeMult":2,
+						"contrailParticleDuration":1,
+						"contrailParticleFinalSizeMult":2.5,
+						"contrailMaxSpeedMult":0.6,
+						"contrailAngularVelocityMult":0.5,
+						"contrailColor":[150,150,150,200],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":120.0,
+				    "angle":180.0},
+				    ],
+
+}

@@ -5,7 +5,7 @@ import org.lwjgl.util.vector.Vector2f
 /**
   * Created by hawk on 5/4/16.
   */
-object VectorUtil {
+object Vector {
 
   implicit class Vector2fOps(val v: Vector2f) extends AnyVal {
 
