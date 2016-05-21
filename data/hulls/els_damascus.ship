@@ -25,10 +25,10 @@
     "hiressensors"
   ],
   "center": [
-    32,
-    45.5
+    32.5,
+    45
   ],
-  "collisionRadius": 50.766624,
+  "collisionRadius": 52.49762,
   "engineSlots": [
     {
       "angle": 180,
@@ -59,9 +59,9 @@
   "hullSize": "FRIGATE",
   "shieldCenter": [
     0,
-    -0
+    0.5
   ],
-  "shieldRadius": 53.949051,
+  "shieldRadius": 62.5,
   "spriteName": "graphics/ELS/ships/els_damascus.png",
   "style": "MIDLINE",
   "viewOffset": 0,
