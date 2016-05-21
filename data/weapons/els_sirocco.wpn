@@ -7,20 +7,20 @@
 	"turretGlowSprite":"graphics/ELS/weapons/els_glaive_turret_glow.png",
 	"hardpointSprite":"graphics/ELS/weapons/els_glaive_hardpoint_base.png",
 	"hardpointGlowSprite":"graphics/ELS/weapons/els_glaive_hardpoint_glow.png",
-	"glowColor":[235,230,255,255],
+	"glowColor":[232,195,213,255],
 	"turretOffsets":[2, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[2, 0],
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",
-	"muzzleFlashSpec":{"length":45.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":4.5,
-					   "particleSizeMin":5.5,
-					   "particleSizeRange":10.0,
-					   "particleDuration":0.18,
-					   "particleCount":40,
-					   "particleColor":[235,220,255,255]},
+	"muzzleFlashSpec":{"length":85.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.5,
+					   "particleSizeMin":6.5,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.30,
+					   "particleCount":60,
+					   "particleColor":[232,195,213,255]},
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"els_sirocco_shot",  # projectile that will be fired
 	"fireSoundOne": "els_sirocco_charge",
