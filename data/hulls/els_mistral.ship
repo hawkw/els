@@ -143,6 +143,18 @@
       "mount": "TURRET",
       "size": "SMALL",
       "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0004",
+      "locations": [
+        62,
+        7.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
     }
   ],
   "width": 106

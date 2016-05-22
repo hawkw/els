@@ -1,0 +1,27 @@
+{
+	"baseHullId":"els_mistral",
+	"skinHullId":"els_mistral_m",
+	"hullName":"Mistral (M)",
+	"fleetPoints":6,
+	"ordnancePoints":40,
+	"systemId":"maneuveringjets",
+	"descriptionId":"els_mistral",  # optional
+	"descriptionPrefix":"This hull has recieved a series of extensive aftermarket modifications bringing it up to military specifications. These modifications typically include tuning the drive systems, hardening shipboard electronics, and applying up-armouring kits to vulnerable hull sections. Hulls modified in this manner are usually tagged with an \"M\", for \"military spec\".",
+	"spriteName":"graphics/ELS/ships/els_mistral_m.png",
+	"baseValueMult":1.2,
+	"removeHints":["CIVILIAN"],
+	#"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[],
+	"removeBuiltInMods":["civgrade"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS0004":{
+            "type": "HYBRID",
+		}
+	},
+	"builtInMods":["blast_doors", "hardened_subsystems"],
+	"builtInWeapons":{
+    },
+
+}
