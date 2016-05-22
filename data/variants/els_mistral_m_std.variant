@@ -1,7 +1,7 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 10,
-    "fluxVents": 5,
+    "fluxCapacitors": 4,
+    "fluxVents": 9,
     "hullId": "els_mistral_m",
     "hullMods": [],
     "quality": 0,
@@ -10,14 +10,15 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0003": "els_coilac"}
+            "weapons": {"WS0004": "els_coilac"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0001": "els_zdmaser",
-                "WS0002": "els_zdmaser"
+                "WS0002": "els_zdmaser",
+                "WS0003": "els_zdmaser"
             }
         }
     ]

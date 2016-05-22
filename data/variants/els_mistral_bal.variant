@@ -1,9 +1,9 @@
 {
     "displayName": "Balanced",
-    "fluxCapacitors": 10,
-    "fluxVents": 5,
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
     "hullId": "els_mistral",
-    "hullMods": [],
+    "hullMods": ["shielded_holds"],
     "quality": 0,
     "variantId": "els_mistral_std",
     "weaponGroups": [
@@ -16,8 +16,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "els_zdmaser",
-                "WS0002": "els_zdmaser"
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser"
             }
         }
     ]
