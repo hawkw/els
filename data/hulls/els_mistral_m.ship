@@ -1,0 +1,160 @@
+{
+  "bounds": [
+    -86.5,
+    24,
+    -77,
+    26,
+    -70.5,
+    32,
+    -26.5,
+    23,
+    -4.5,
+    29,
+    -4.5,
+    51.5,
+    33.5,
+    49.5,
+    34,
+    24.5,
+    62,
+    24.5,
+    82.5,
+    8.5,
+    82.5,
+    -8.5,
+    62,
+    -24.5,
+    34,
+    -24.5,
+    33.5,
+    -49.5,
+    -4.5,
+    -51.5,
+    -4.5,
+    -29,
+    -26.5,
+    -23,
+    -70.5,
+    -32,
+    -77,
+    -26,
+    -86.5,
+    -24
+  ],
+  "builtInMods": [
+  ],
+  "center": [
+    53.5,
+    87
+  ],
+  "collisionRadius": 85,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -7,
+        -42
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": 179.630356,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -7,
+        42
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16.328693,
+      "length": 52.053757,
+      "location": [
+        -87,
+        16
+      ],
+      "style": "ELS_MILITARY",
+      "width": 16.328693
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16.328693,
+      "length": 52.053757,
+      "location": [
+        -87,
+        -16
+      ],
+      "style": "ELS_MILITARY",
+      "width": 16.328693
+    }
+  ],
+  "height": 174,
+  "hullId": "els_mistral_m",
+  "hullName": "Mistral (M)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0.5,
+    -0
+  ],
+  "shieldRadius": 100,
+  "spriteName": "graphics/ELS/ships/els_mistral_m.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 110,
+      "arc": 225,
+      "id": "WS0002",
+      "locations": [
+        -11,
+        19.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -180,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -43,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -110,
+      "arc": 225,
+      "id": "WS0001",
+      "locations": [
+        46,
+        -18.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0004",
+      "locations": [
+        62,
+        7.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 106
+}
