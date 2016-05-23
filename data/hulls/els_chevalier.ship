@@ -102,6 +102,28 @@
       ],
       "style": "ELS_MILITARY",
       "width": 20
+    },
+    {
+      "angle": -137,
+      "contrailSize": 128,
+      "length": 25,
+      "location": [
+        23,
+        -13.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5,
+    },
+    {
+      "angle": 137,
+      "contrailSize": 128,
+      "length": 25,
+      "location": [
+        23,
+        13.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5,
     }
   ],
   "height": 216,

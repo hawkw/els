@@ -95,26 +95,48 @@
       "width": 18
     },
     {
-      "angle": -135,
-      "contrailSize": 128,
-      "length": 18,
+      "angle": -119.054604,
+      "contrailSize": 2.622471,
+      "length": 14.714981,
       "location": [
-        -21.5,
-        -18
+        57.5,
+        -19
       ],
       "style": "LOW_TECH",
-      "width": 6
+      "width": 2.622471
     },
     {
-      "angle": 135,
-      "contrailSize": 128,
-      "length": 18,
+      "angle": 119.054604,
+      "contrailSize": 2.622471,
+      "length": 14.714981,
       "location": [
-        -21.5,
+        57.5,
         19
       ],
       "style": "LOW_TECH",
-      "width": 6
+      "width": 2.622471
+    },
+    {
+      "angle": -119.054604,
+      "contrailSize": 2.622471,
+      "length": 14.714981,
+      "location": [
+        61.5,
+        -19
+      ],
+      "style": "LOW_TECH",
+      "width": 2.622471
+    },
+    {
+      "angle": 119.054604,
+      "contrailSize": 2.622471,
+      "length": 14.714981,
+      "location": [
+        61.5,
+        19
+      ],
+      "style": "LOW_TECH",
+      "width": 2.622471
     }
   ],
   "height": 174,

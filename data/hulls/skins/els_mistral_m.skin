@@ -17,7 +17,7 @@
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"weaponSlotChanges":{
 		"WS0004":{
-            "type": "HYBRID",
+            "type": "COMPOSITE",
 		}
 	},
 	"builtInMods":["blast_doors", "hardened_subsystems"],
