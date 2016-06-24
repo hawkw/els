@@ -1,0 +1,44 @@
+{
+	"id":"els_positronmauler",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":350,
+	#"turretUnderSprite":"graphics/ELS/weapons/istl_socket_turret_med.png",
+	"turretSprite":"graphics/ELS/weapons/els_positronmauler_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/els_positronmauler_turret_recoil.png",
+	"turretGlowSprite":"graphics/ELS/weapons/els_positronmauler_turret_glow.png",
+	#"hardpointUnderSprite":"graphics/ELS/weapons/istl_socket_hardpoint_med.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_positronmauler_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/els_positronmauler_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/ELS/weapons/els_positronmauler_hardpoint_glow.png",
+	"visualRecoil":3.5,  # the gun sprites are only used if this is non-0
+	"glowColor":[255,75,100,255],
+	"turretOffsets":[22, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[24, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":32.5,   # only used if animationType = MUZZLE_FLASH
+					   "spread":7.5,
+					   "particleSizeMin":9.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.175,
+					   "particleCount":40,
+					   "particleColor":[255,100,235,120]},
+	#"animationType":"SMOKE",
+	#"smokeSpec":{"particleSizeMin":10.0,
+	#			 "particleSizeRange":15.0,
+	#			 "cloudParticleCount":10,
+	#			 "cloudDuration":1.7,
+	#			 "cloudRadius":4.0,
+	#			 "blowbackParticleCount":8,
+	#			 "blowbackDuration":1.7,
+	#			 "blowbackLength":45.0,
+	#			 "blowbackSpread":12.0,
+	#			 "particleColor":[150,150,150,220]},
+	"projectileSpecId":"els_positron_round",  # projectile that will be fired
+	"fireSoundTwo":"els_gyro_fire",
+}

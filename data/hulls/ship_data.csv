@@ -1,7 +1,7 @@
 name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,number
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Adept,els_adept,Frigate,els_mesa_radar,6,750,75,2200,2500,200,35,155,220,175,120,360,100,OMNI,,150,0.3,0.6,,,10,20,30,40,1,40,10,15000,10,20,180,0.25,5,5,,205
-Chevalier,els_chevalier,Destroyer,maneuveringjets,12,5000,575,7500,,350,85,135,145,90,45,60,400,OMNI,,150,0.4,1.0,,,40,80,60,80,2,,10,35000,5,12,380,0.2,11,,,105
-Damascus,els_damascus,Picket,highenergyfocus,6,1000,180,1500,,220,40,175,200,175,90,120,150,FRONT,,250,0.3,0.6,,,8,20,20,80,1,,10,9000,10,15,200,0.2,5,5,,110
-Mistral,els_mistral,Light Freighter,burndrive,5,1500,225,1500,,120,35,125,110,90,45,90,350,OMNI,,150,0.4,0.9,,,20,50,100,80,1,80,10,12000,8,10,150,0.25,5,5,CIVILIAN,220
-Mistral (M),els_mistral_mm,Light Transport,maneuveringjets,6,1500,250,1700,,135,40,140,115,95,50,96,350,OMNI,,150,0.4,0.8,,,20,45,90,80,1,80,10,1400,8,10,200,0.25,5,5,,221
+Chevalier,els_chevalier,Destroyer,els_rcsburst,12,5000,575,7500,,350,85,135,145,90,45,60,400,OMNI,,150,0.4,1.0,,,40,80,60,80,2,,10,35000,5,12,380,0.2,11,,,105
+Damascus,els_damascus,Picket,highenergyfocus,6,1000,180,1500,,220,32,175,200,175,90,120,150,FRONT,,250,0.3,0.6,,,8,20,20,80,1,,10,9000,10,15,200,0.2,5,5,,110
+Mistral,els_mistral,Light Freighter,burndrive,5,1500,225,2000,,120,35,115,110,90,45,90,350,OMNI,,150,0.4,0.9,,,20,50,100,80,1,80,10,12000,8,10,150,0.25,5,5,CIVILIAN,220
+Mistral (M)_Old,els_mistral_mm,Light Transport,maneuveringjets,6,1500,250,1700,,135,40,140,115,95,50,96,350,OMNI,,150,0.4,0.8,,,20,45,90,80,1,80,10,1400,8,10,200,0.25,5,5,,221

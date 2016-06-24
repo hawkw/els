@@ -19,5 +19,8 @@
 	"els_stinger_fire":[{"file":"sounds/ELS/fx/els_stingerfire.ogg","pitch":1.0, "volume":0.5}],
 	"els_autogun_fire":[{"file":"sounds/ELS/fx/els_stingerfire.ogg","pitch":0.7, "volume":0.7}],
 	"els_stinger_load":[{"file":"sounds/ELS/fx/els_stingerload.ogg","pitch":1, "volume":0.10}],
+	"els_blaster_sm":[{"file":"sounds/ELS/fx/els_blaster_sm_01.ogg","pitch":1, "volume":0.5}],
+	"els_blaster_med":[{"file":"sounds/ELS/fx/els_blaster_med_01.ogg","pitch":1, "volume":0.5}],
+	"els_blaster_lg":[{"file":"sounds/ELS/fx/els_blaster_lg_01.ogg","pitch":1, "volume":0.5}],
 
 }

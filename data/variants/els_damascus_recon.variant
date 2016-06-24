@@ -1,5 +1,5 @@
 {
-    "displayName": "Standard",
+    "displayName": "Force Recon",
     "fluxCapacitors": 4,
     "fluxVents": 8,
     "hullId": "els_damascus",
@@ -11,7 +11,13 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "irpulse",
+                "WS0001": "els_hatf_rack",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
                 "WS0002": "irpulse"
             }
         },

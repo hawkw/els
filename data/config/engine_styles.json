@@ -11,4 +11,31 @@
 		"contrailCampaignColor":[255,125,100,150],
 		"type":"SMOKE" # GLOW or SMOKE
 	},
+    "ELS_POSITRON":{
+        "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor":[255,100,235,215],
+        "engineGlowGlowMult":2.2,
+        "contrailDuration":0.5,
+        "contrailWidthMult":1.7,
+        "contrailWidthAddedFractionAtEnd":1.7,  # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg":5, # min segment length, in pixels
+        "contrailMaxSpeedMult":0.5f,
+        "contrailAngularVelocityMult":0.5f,
+        "contrailSpawnDistMult":0.1, # how far away from engine it starts
+        "contrailColor":[150,150,150,100],
+        "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+    },
+    "ELS_POSITRON_FLARE":{
+        "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor":[255,100,235,215],
+        "contrailDuration":0,
+        "contrailWidthMult":0,
+        "contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+        "contrailMinSeg":0, # min segment length, in pixels
+        "contrailMaxSpeedMult":0,
+        "contrailAngularVelocityMult":0,
+        "contrailSpawnDistMult":0,
+        "contrailColor":[150,150,150,220],
+        "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+    }
 }

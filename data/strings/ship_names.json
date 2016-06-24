@@ -20,7 +20,15 @@
         , "Hercule"
         , "Patria"
         , "L'étendard Sanglant"
+        , "Chrétien"
         ]
+  , "ELS_PIRATE":
+      [ "Mad Maudlin"
+      , "Lady Macbeth"
+      , "Robbing Hood"
+      , "Nothing Personal"
+      , "Yet Another Goddamn Gravitas Joke"
+      ]
   , "ELS_FARSI":
         [ "Fateh"
         , "Artemiz"

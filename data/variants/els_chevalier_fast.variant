@@ -1,7 +1,7 @@
 {
     "displayName": "Fast Attack",
     "fluxCapacitors": 10,
-    "fluxVents": 7,
+    "fluxVents": 8,
     "hullId": "els_chevalier",
     "hullMods": ["fluxbreakers"],
     "quality": 0.5,
@@ -10,19 +10,11 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0000": "els_blaster"}
-        },
-        {
-            "autofire": false,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS0001": "els_raad_rack",
-                "WS0002": "els_raad_rack"
-            }
+            "weapons": {"WS0000": "els_positronmauler"}
         },
         {
             "autofire": true,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
                 "WS0003": "els_sirocco",
                 "WS0004": "els_sirocco"
@@ -32,8 +24,10 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0005": "els_pdlaser",
-                "WS0006": "els_pdlaser"
+                "WS0001": "pdlaser",
+                "WS0002": "pdlaser",
+                "WS0005": "pdlaser",
+                "WS0006": "pdlaser"
             }
         }
     ]

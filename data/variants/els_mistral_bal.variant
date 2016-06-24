@@ -5,7 +5,7 @@
     "hullId": "els_mistral",
     "hullMods": ["shielded_holds"],
     "quality": 0,
-    "variantId": "els_mistral_std",
+    "variantId": "els_mistral_bal",
     "weaponGroups": [
         {
             "autofire": false,

@@ -12,5 +12,6 @@
     <orderEntry type="library" name="starfarer.api" level="project" />
     <orderEntry type="library" name="LazyLib" level="project" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.7 (2)" level="application" />
   </component>
 </module>

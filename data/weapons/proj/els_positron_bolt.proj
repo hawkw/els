@@ -1,0 +1,18 @@
+{
+	"id":"els_positron_bolt",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length": 55.0,
+	"width":7,
+	"fadeTime":0.200,
+	"fringeColor":[255,100,235,155],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,100,235,75],
+	"glowRadius": 15,
+	"hitGlowRadius":50,
+	"textureScrollSpeed":-96.0,
+	"pixelsPerTexel":2.0,
+	"bulletSprite":"graphics/ELS/missiles/els_pulser_bolt.png"
+}

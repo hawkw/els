@@ -18,8 +18,14 @@ object Vector {
     @inline final def + (u: Vector2f): Vector2f
       = Vector2f add (v, u, new Vector2f)
 
+    @inline final def += (u: Vector2f): Vector2f
+      = { Vector2f add (v, u, v); v }
+
     @inline final def  - (u: Vector2f): Vector2f
       = Vector2f sub (v, u, new Vector2f)
+
+    @inline final def -= (u: Vector2f): Vector2f
+    = { Vector2f sub (v, u, v); v }
 
     @inline final def ° (u: Vector2f): Float
       = Vector2f angle (v, u)
