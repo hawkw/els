@@ -23,6 +23,6 @@
 	"textureScrollSpeed":72.0,
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
-	"fireSoundOne":"laser_intro",
-	#"fireSoundTwo":"istl_thunderbolt_fire",
+	"fireSoundOne":"heavy_burst_laser_fire",
+	#"fireSoundTwo":"heavy_burst_laser_loop",
 }

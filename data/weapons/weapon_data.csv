@@ -22,9 +22,9 @@ Hull Defence Gun,els_hulldefgun,0,125,275,,20,,1,105,2,25,3,25,FRAGMENTATION,2,,
 Shamshir Machine Gun,els_stinger,2,360,500,,16,4,2,50,6,120,8,15,KINETIC,10,,,0.55,15,0.072,3,10,1,10,,900,,,50,,1.60
 Twin Shamshir Machine Gun,els_twinstinger,2,960,525,,16,4,2,45,12,240,16,20,KINETIC,11,,,0.55,15,0.072,2,8,1,14,,900,,,50,,1.60
 Heat Vent,els_heatvent,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,10
-Rocket Rifle,els_gyrocannon,2,2500,1000,,200,50,200,20,13,,,,HIGH_EXPLOSIVE,175,,,2.2,2,0.1,1,5,1,10,,900,900,1.5,600,,1.818
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Positron Mauler,els_positronmauler,3,3000,900,,400,275,200,18,15,,,,ENERGY,533.33,,0.1,1.2333,1,,1,5,1,12,,750,700,1.4,600,"STRIKE, USE_VS_FRIGATES",4.85
 Positron Blaster,els_positronblaster,3,850,500,,150,200,50,15,6,,,,ENERGY,175,,0.1,1.7,1,,0,8,1,12,,700,,,300,,
 Scimitar Autogun,els_autogun,2,1000,700,,50,,10,20,11,,,,KINETIC,45,,0.1,0.55,4,0.072,2,6,1,10,,900,,,10,,23
-Laser Array,els_laser_array,2,500,700,350,,,0,45,6,,,,ENERGY,,400,,0.5,0.3,0.2,0,0,0,10,4000,,,,,,
-Phased Laser Array,els_phased_array,2,1000,900,450,,,0,35,10,,,,ENERGY,,490,,0.8,0.7,0.2,0,0,0,10,4000,,,,,,
+Light Laser Array,els_laser_array,2,500,700,300,,,0,35,5,,,,ENERGY,,450,,0.6,0.3,0.6,0,0,0,10,7000,,,,,,
+Phased Laser Array,els_phased_array,2,1000,900,500,,,0,25,10,,,,ENERGY,,550,,0.6,0.6,0.8,0,0,0,10,7000,,,,,,
