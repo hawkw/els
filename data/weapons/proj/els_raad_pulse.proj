@@ -1,0 +1,37 @@
+{
+	"id":"els_raad_pulse",
+	"specClass":"missile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"missileType":"ROCKET",
+	"sprite":"graphics/ELS/missiles/els_pulser_bolt.png",
+	"size":[9,16],
+	"center":[4.5,8],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[75,125,255,245],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"engineSpec":{"turnAcc":3200,
+				  "turnRate":1280,
+				  "acc":10000,
+				  "dec":0.01},
+	"engineSlots":[{"id":"ES1",
+					"loc":[3,0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[75,125,255,255],
+						"contrailDuration":1.25,
+						"contrailWidthMult":9.0,
+						"contrailWidthAddedFractionAtEnd":0.3,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0f,
+						"contrailColor":[75,125,255,245],
+						"contrailSpawnDistMult":0,
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":1.0,
+				    "length":1.0,
+				    "angle":180.0},
+				    ]
+}

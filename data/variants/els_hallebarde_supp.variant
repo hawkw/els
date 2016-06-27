@@ -1,0 +1,38 @@
+{
+    "displayName": "Fire Support",
+    "fluxCapacitors": 12,
+    "fluxVents": 11,
+    "hullId": "els_hallebarde",
+    "hullMods": ["eccm"],
+    "quality": 0,
+    "variantId": "els_hallebarde_supp",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pilum",
+                "WS0002": "pilum"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "taclaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "els_sirocco"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+                "WS0004": "els_zdmaser",
+                "WS0005": "vulcan"
+            }
+        }
+    ]
+}

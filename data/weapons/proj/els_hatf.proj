@@ -2,13 +2,23 @@
 	"id":"els_hatf",
 	"specClass":"missile",
 	"missileType":"ROCKET",
-	"sprite":"graphics/ELS/missiles/els_blumissile.png",
+	"sprite":"graphics/ELS/missiles/els_torpedo.png",
 	"size":[10,24],
 	"center":[5,12],
 	"collisionRadius":15,
-	"collisionClass":"MISSILE_FF",
+	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":150, # purely visual
+	"explosionRadius":120, # purely visual
+	"explosionSpec":{"duration":0.3f, # not visual
+					 "radius":110,
+					 "coreRadius":50, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.5,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1.5,
+					 "particleCount":120,
+					 "particleColor":[255,155,100,255],},
 	"flameoutTime":1.5, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.3, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration
@@ -23,14 +33,15 @@
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 						"engineColor":[255,155,100,255],
-						"contrailDuration":1.5,
-						"contrailWidthMult":1.1,
-						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
-						"contrailMinSeg":3, # min segment length, in pixels
-						"contrailMaxSpeedMult":0.5f,
-						"contrailAngularVelocityMult":0.5f,
-						"contrailSpawnDistMult":0f, # how far away from engine it starts
-						"contrailColor":[255,155,100,150],
+                        "engineGlowGlowMult":2.2,
+                        "contrailDuration":0.5,
+                        "contrailWidthMult":1.7,
+                        "contrailWidthAddedFractionAtEnd":1.7,  # can be negative. makes trail spread out/narrow at the end
+                        "contrailMinSeg":5, # min segment length, in pixels
+                        "contrailMaxSpeedMult":0.5f,
+                        "contrailAngularVelocityMult":0.5f,
+                        "contrailSpawnDistMult":0.1, # how far away from engine it starts
+                        "contrailColor":[150,150,150,100],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":5.0,

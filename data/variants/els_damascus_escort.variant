@@ -1,0 +1,27 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 6,
+    "fluxVents": 4,
+    "hullId": "els_damascus",
+    "hullMods": [
+        "fluxbreakers",
+        "targetingunit"
+    ],
+    "quality": 0,
+    "variantId": "els_damascus_escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "els_laser_array",
+                "WS0002": "els_laser_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "els_zdmaser"}
+        }
+    ]
+}

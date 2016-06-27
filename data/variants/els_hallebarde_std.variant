@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "hullId": "els_hallebarde",
+    "hullMods": [
+        "eccm",
+        "missleracks"
+    ],
+    "quality": 0,
+    "variantId": "els_hallebarde_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoonpod",
+                "WS0002": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "els_laser_array"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "els_glaive"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+                "WS0004": "els_zdmaser",
+                "WS0005": "vulcan"
+            }
+        }
+    ]
+}

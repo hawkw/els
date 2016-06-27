@@ -2,19 +2,13 @@ package data.scripts.weapons;
 
 import java.awt.Color;
 
+import com.fs.starfarer.api.combat.*;
 import org.lwjgl.util.vector.Vector2f;
-
-import com.fs.starfarer.api.combat.CombatEngineAPI;
-import com.fs.starfarer.api.combat.CombatEntityAPI;
-import com.fs.starfarer.api.combat.DamageType;
-import com.fs.starfarer.api.combat.DamagingProjectileAPI;
-import com.fs.starfarer.api.combat.OnHitEffectPlugin;
-import com.fs.starfarer.api.combat.ShipAPI;
 
 public class RaadOnHit implements OnHitEffectPlugin {
 
-    private static final Color CORE_COLOR = new Color(248,255,85,255);
-    private static final Color FRINGE_COLOR = new Color(93,253,91,255);
+    private static final Color CORE_COLOR = new Color(255,255,255,255);
+    private static final Color FRINGE_COLOR = new Color(255,100,235,215);
     private static final float ARC_WIDTH = 20f;
     private static final float ARC_RANGE = 100000f;
     private static final String SFX = "tachyon_lance_emp_impact";
@@ -37,7 +31,8 @@ public class RaadOnHit implements OnHitEffectPlugin {
             							    ARC_RANGE,
             							    SFX,
             							    ARC_WIDTH,
-            							    CORE_COLOR, FRINGE_COLOR
+            							    CORE_COLOR,
+											FRINGE_COLOR
             							    );
 
 		} else if (target instanceof ShipAPI) {
@@ -51,7 +46,8 @@ public class RaadOnHit implements OnHitEffectPlugin {
 							   ARC_RANGE,
 							   SFX,
 							   ARC_WIDTH,
-                               CORE_COLOR, FRINGE_COLOR
+                               CORE_COLOR,
+					           FRINGE_COLOR
 							   );
         }
 	}

@@ -1,0 +1,202 @@
+{
+  "bounds": [
+    -11.5,
+    47.5,
+    -35.5,
+    41.5,
+    -39.5,
+    23.5,
+    -60,
+    29,
+    -69.5,
+    29,
+    -89,
+    26,
+    -89,
+    -26,
+    -69.5,
+    -29,
+    -60,
+    -29,
+    -39.5,
+    -23.5,
+    -35.5,
+    -41.5,
+    -11.5,
+    -47.5,
+    -3.5,
+    -42.5,
+    17,
+    -42.5,
+    22.5,
+    -49.5,
+    72,
+    -49,
+    87,
+    -29.5,
+    73,
+    -10,
+    18,
+    -10,
+    18.5,
+    7.5,
+    34.5,
+    16,
+    48.5,
+    25.5,
+    39,
+    37.5,
+    -8,
+    42.5
+  ],
+  "center": [
+    51,
+    95
+  ],
+  "collisionRadius": 108.65197,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -37.5,
+        -36
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -37.5,
+        36
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 45,
+      "location": [
+        -89.5,
+        -17
+      ],
+      "style": "ELS_MILITARY",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 45,
+      "location": [
+        -89.5,
+        17
+      ],
+      "style": "ELS_MILITARY",
+      "width": 15
+    }
+  ],
+  "height": 192,
+  "hullId": "els_hallebarde",
+  "hullName": "Hallebarde",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 107.113258,
+  "spriteName": "graphics/ELS/ships/els_hallebarde.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 160,
+      "id": "WS0001",
+      "locations": [
+        64,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 160,
+      "id": "WS0002",
+      "locations": [
+        31,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -124.28688,
+      "arc": 250,
+      "id": "WS0003",
+      "locations": [
+        7,
+        -36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -180,
+      "arc": 250,
+      "id": "WS0004",
+      "locations": [
+        -63,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 123.070679,
+      "arc": 250,
+      "id": "WS0005",
+      "locations": [
+        17,
+        33
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0006",
+      "locations": [
+        -21,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0007",
+      "locations": [
+        11,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 102
+}

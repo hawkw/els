@@ -128,7 +128,7 @@ extends EveryFrameCombatPlugin {
              // .withFilter { !_.isFading } // ignore proj. currently fading out
               .withFilter { _.getProjectileSpecId != null }
 
-    projectiles.withFilter { _.getProjectileSpecId == "els_sirocco_shot" }
+    projectiles.withFilter { _.getProjectileSpecId == "els_raad_pulse" }
                .foreach { siroccoPenetrationThisFrame }
 
   }

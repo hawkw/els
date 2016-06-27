@@ -1,0 +1,39 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 14,
+    "fluxVents": 5,
+    "hullId": "els_hallebarde",
+    "hullMods": [
+        "missleracks",
+        "targetingunit"
+    ],
+    "quality": 0,
+    "variantId": "els_hallebarde_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_hatf_pod",
+                "WS0002": "els_hatf_pod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "els_twinstinger",
+                "WS0007": "els_laser_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "vulcan",
+                "WS0004": "vulcan",
+                "WS0005": "vulcan"
+            }
+        }
+    ]
+}
