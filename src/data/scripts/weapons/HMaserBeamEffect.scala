@@ -1,6 +1,6 @@
 package data.scripts.weapons
 
-import java.awt.Color
+import java.awt
 
 import com.fs.starfarer.api.combat._
 import com.fs.starfarer.api.util.IntervalUtil
@@ -9,6 +9,7 @@ import org.lazywizard.lazylib.MathUtils.{
   getPointOnCircumference => pointOnCircumference
 , getRandomNumberInRange => randomNumBetween
 }
+import me.hawkweisman.elizalib.scalaAPIs.ColorUtil._
 
 import scala.language.postfixOps
 /**
@@ -16,7 +17,6 @@ import scala.language.postfixOps
   */
 class HMaserBeamEffect extends BeamEffectPlugin {
 
-  private[this] val ParticleDuration: Float = 0.6f
   private[this] val fireInterval: IntervalUtil = new IntervalUtil(0.25f, 1.75f)
 
   override def advance(amount: Float, engine: CombatEngineAPI, beam: BeamAPI)
@@ -37,14 +37,13 @@ class HMaserBeamEffect extends BeamEffectPlugin {
 
             val pSpeed = randomNumBetween(20f, 100f)
             val pAngle = randomNumBetween(angleTo + 20, angleTo - 20)
-            val pColor = new Color(250, randomNumBetween(128,220), 172)
 
             engine addHitParticle ( point
                                   , pointOnCircumference(null, pSpeed, pAngle)
                                   , randomNumBetween(5f,9f)
                                   , beam.getBrightness
-                                  , ParticleDuration
-                                  , pColor )
+                                  , HMaserBeamEffect.ParticleDuration
+                                  , HMaserBeamEffect.particleColor )
 
             if (fireInterval.intervalElapsed)
               engine applyDamage ( ship
@@ -56,7 +55,15 @@ class HMaserBeamEffect extends BeamEffectPlugin {
                                  , false
                                  , beam getSource)
           }
-        case _ => {}
+        case _ =>
       }
 
+}
+object HMaserBeamEffect {
+  private[this] val BaseColor1: Color = RGB(250, 128, 172)
+  private[this] val BaseColor2: Color = RGB(250, 220, 172)
+  private val ParticleDuration: Float = 0.6f
+
+  @inline private def particleColor: awt.Color
+    = BaseColor1.lerpRGB(BaseColor2, Math.random().asInstanceOf[Float])
 }

@@ -1,15 +1,20 @@
 {
     "ELS_MILITARY":{
 		"engineColor":[255,125,100,255],
-        "engineGlowGlowMult":2.2,
-		"contrailParticleSizeMult":1.1,
-		"contrailParticleDuration":2,
-		"contrailParticleFinalSizeMult":1.25,
-		"contrailMaxSpeedMult":0.75,
-		"contrailAngularVelocityMult":0.75,
+    #    "engineGlowGlowMult":2.2,
+	#	"contrailParticleSizeMult":1.1,
+	#	"contrailParticleDuration":2,
+	#	"contrailParticleFinalSizeMult":1.25,
+	#	"contrailMaxSpeedMult":0.75,
+	#	"contrailAngularVelocityMult":0.75,
+        "contrailParticleSizeMult":2,
+        "contrailParticleDuration":1,
+        "contrailParticleFinalSizeMult":1.25,
+        "contrailMaxSpeedMult":0.75,
+        "contrailAngularVelocityMult":0.5,
 		"contrailColor":[60,60,60,60],
 		"contrailCampaignColor":[255,125,100,150],
-		"type":"SMOKE" # GLOW or SMOKE
+		"type":"GLOW" # GLOW or SMOKE
 	},
     "ELS_POSITRON":{
         "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
@@ -17,13 +22,27 @@
         "engineGlowGlowMult":2.2,
         "contrailDuration":0.5,
         "contrailWidthMult":1.7,
-        "contrailWidthAddedFractionAtEnd":1.7,  # can be negative. makes trail spread out/narrow at the end
+        "contrailWidthAddedFractionAtEnd":-0.25,
         "contrailMinSeg":5, # min segment length, in pixels
         "contrailMaxSpeedMult":0.5f,
         "contrailAngularVelocityMult":0.5f,
         "contrailSpawnDistMult":0.1, # how far away from engine it starts
         "contrailColor":[150,150,150,100],
-        "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+        "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+    },
+    "ELS_PositronStreak":{
+        "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+        "engineColor":[255,100,235,215],
+        "engineGlowGlowMult":2.1,
+        "contrailDuration":0.3,
+        "contrailWidthMult":1.0,
+        "contrailWidthAddedFractionAtEnd":-0.25,
+        "contrailMinSeg":5, # min segment length, in pixels
+        "contrailMaxSpeedMult":0.75f,
+        "contrailAngularVelocityMult":0f,
+        "contrailSpawnDistMult":-1, # how far away from engine it starts
+        "contrailColor":[255,100,235,50],
+        "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
     },
     "ELS_POSITRON_FLARE":{
         "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used

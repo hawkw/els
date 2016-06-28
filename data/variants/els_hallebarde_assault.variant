@@ -1,6 +1,6 @@
 {
     "displayName": "Assault",
-    "fluxCapacitors": 14,
+    "fluxCapacitors": 10,
     "fluxVents": 5,
     "hullId": "els_hallebarde",
     "hullMods": [
@@ -14,17 +14,19 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS0001": "els_hatf_pod",
-                "WS0002": "els_hatf_pod"
+                "WS0001": "typhoon",
+                "WS0002": "typhoon"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {
-                "WS0006": "els_twinstinger",
-                "WS0007": "els_laser_array"
-            }
+            "weapons": {"WS0007": "amblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0006": "els_twinstinger"}
         },
         {
             "autofire": true,

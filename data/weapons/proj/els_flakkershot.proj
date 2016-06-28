@@ -14,16 +14,16 @@
 	"pixelsPerTexel":2.0,
 	"bulletSprite":"graphics/missiles/shell_large_blue.png",
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":20,
-					"explosionSpec":{"duration":0.075f,
-									 "radius":25,
-									 "coreRadius":20, # full damage within core radius - also equal to proximity fuse range
+					"range":8,
+					"explosionSpec":{"duration":0.05f,
+									 "radius":12,
+									 "coreRadius":6, # full damage within core radius - also equal to proximity fuse range
 									 "collisionClass":PROJECTILE_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":1.0,
 									 "particleSizeRange":3.0,
 									 "particleDuration":0.5,
-									 "particleCount":20,
+									 "particleCount":16,
 									 "particleColor":[255,140,75,225],
 									 "sound":"explosion_flak"},
 					}
