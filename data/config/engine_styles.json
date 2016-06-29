@@ -1,7 +1,7 @@
 {
     "ELS_MILITARY":{
 		"engineColor":[255,125,100,255],
-    #    "engineGlowGlowMult":2.2,
+        "engineGlowGlowMult":2.2,
 	#	"contrailParticleSizeMult":1.1,
 	#	"contrailParticleDuration":2,
 	#	"contrailParticleFinalSizeMult":1.25,

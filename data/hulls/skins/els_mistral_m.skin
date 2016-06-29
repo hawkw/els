@@ -6,7 +6,7 @@
 	"ordnancePoints":40,
 	"systemId":"maneuveringjets",
 	"descriptionId":"els_mistral",  # optional
-	"descriptionPrefix":"This hull has recieved a series of extensive aftermarket modifications bringing it up to military specifications. These modifications typically include tuning the drive systems, hardening shipboard electronics, and applying up-armouring kits to vulnerable hull sections. Hulls modified in this manner are usually tagged with an \"M\", for \"military spec\".",
+	"descriptionPrefix":"This hull has received a series of extensive aftermarket modifications bringing it up to military specifications. These modifications typically include tuning the drive systems, hardening shipboard electronics, and applying up-armouring kits to vulnerable hull sections. Hulls modified in this manner are usually tagged with an \"M\", for \"military spec\".",
 	"spriteName":"graphics/ELS/ships/els_mistral_m.png",
 	"baseValueMult":1.2,
 	"removeHints":["CIVILIAN"],

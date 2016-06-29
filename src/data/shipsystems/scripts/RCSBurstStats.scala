@@ -23,12 +23,12 @@ extends ShipSystemStatsScript {
       stats.getMaxTurnRate.modifyPercent(id, 100f * effectLevel)
     }
 
-    if (state == State.IN) {
-
-      val ship = stats.getEntity.asInstanceOf[ShipAPI]
-      val combat = Global.getCombatEngine
-      val key = s"${ship.getId}_$id"
-      val test = combat.getCustomData.get(key)
+//    if (state == State.IN) {
+//
+//      val ship = stats.getEntity.asInstanceOf[ShipAPI]
+//      val combat = Global.getCombatEngine
+//      val key = s"${ship.getId}_$id"
+//      val test = combat.getCustomData.get(key)
 
 //      if (test == null && effectLevel > 0.4f) {
 //        combat.getCustomData.put(key, new Object())
@@ -52,7 +52,7 @@ extends ShipSystemStatsScript {
 //      } else {
 //        combat.getCustomData.remove(key)
 //      }
-    }
+//    }
 
 
   }

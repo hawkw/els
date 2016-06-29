@@ -65,8 +65,8 @@
   "engineSlots": [
     {
       "angle": 180,
-      "contrailSize": 20,
-      "length": 45.5,
+      "contrailSize": 15,
+      "length": 50,
       "location": [
         -107.5,
         -0
@@ -76,8 +76,8 @@
     },
     {
       "angle": -180,
-      "contrailSize": 20,
-      "length": 45,
+      "contrailSize": 15,
+      "length":50,
       "location": [
         -99,
         22
@@ -87,8 +87,8 @@
     },
     {
       "angle": 180,
-      "contrailSize": 20,
-      "length": 45,
+      "contrailSize": 15,
+      "length": 50,
       "location": [
         -99,
         -22
@@ -188,7 +188,7 @@
       ],
       "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "BALLISTIC"
+      "type": "ENERGY"
     },
     {
       "angle": -90,
@@ -200,7 +200,7 @@
       ],
       "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "BALLISTIC"
+      "type": "ENERGY"
     },
     {
       "angle": 110,
@@ -236,7 +236,7 @@
       ],
       "mount": "HARDPOINT",
       "size": "MEDIUM",
-      "type": "ENERGY"
+      "type": "HYBRID"
     }
   ],
   "width": 86

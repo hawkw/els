@@ -16,5 +16,6 @@
     <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="library" name="ElizaLib" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
+    <orderEntry type="library" name="starsector-deps" level="project" />
   </component>
 </module>

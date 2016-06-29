@@ -6,4 +6,5 @@
 	"description":"A tiny chunky green fellow who likes to peek in windows.",
   "gameVersion":"0.7.2a",
   "jars":["jars/els.jar", "jars/scala-library-2.11.8.jar"],
+  "modPlugin":"data.scripts.ELSModPlugin"
 }
