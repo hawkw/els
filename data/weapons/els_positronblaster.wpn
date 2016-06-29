@@ -4,6 +4,7 @@
 	"type":"ENERGY",
 	"size":"SMALL",
 	"displayArcRadius":350,
+	"everyFrameEffect": "data.scripts.weapons.PositronBlasterParticleFX",
 	#"turretUnderSprite":"graphics/ELS/weapons/istl_socket_turret_med.png",
 	"turretSprite":"graphics/ELS/weapons/els_positrongun_turret_base.png",
 	"turretGunSprite":"graphics/ELS/weapons/els_positrongun_turret_recoil.png",
@@ -22,13 +23,15 @@
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
-	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":7.5,
+	"muzzleFlashSpec":{"length":40.0,
+					   "spread":9.5,
 					   "particleSizeMin":8.0,
 					   "particleSizeRange":18.0,
-					   "particleDuration":0.175,
-					   "particleCount":25,
-					   "particleColor":[255,100,235,120]},
+					   "particleDuration":0.275,
+					   "particleCount":30,
+					   "particleColor":[255,100,235,120], # "electron"-style
+					   #"particleColor":[155,100,255,120] # AM Blaster-style
+	},
 	"projectileSpecId":"els_positron_bolt",  # projectile that will be fired
 	"fireSoundTwo":"els_blaster_sm",
 }
