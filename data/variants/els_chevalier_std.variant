@@ -1,33 +1,35 @@
 {
     "displayName": "Standard",
-    "fluxCapacitors": 5,
+    "fluxCapacitors": 10,
     "fluxVents": 20,
     "hullId": "els_chevalier",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "quality": 0.5,
     "variantId": "els_chevalier_std",
     "weaponGroups": [
         {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0000": "ionbeam"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
+            "autofire": false,
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS0003": "els_glaive",
-                "WS0004": "els_glaive"
+                "WS0001": "els_hatf_rack",
+                "WS0002": "els_hatf_rack"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "pdlaser",
-                "WS0002": "pdlaser",
-                "WS0005": "pdlaser",
-                "WS0006": "pdlaser"
+                "WS0000": "els_autogun",
+                "WS0003": "els_phased_array",
+                "WS0004": "els_phased_array"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_zdmaser",
+                "WS0006": "els_zdmaser"
             }
         }
     ]

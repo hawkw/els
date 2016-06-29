@@ -3,19 +3,15 @@
     "fluxCapacitors": 9,
     "fluxVents": 20,
     "hullId": "els_chevalier",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "quality": 0.5,
     "variantId": "els_chevalier_patrol",
     "weaponGroups": [
         {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0000": "els_phased_array"}
-        },
-        {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
+                "WS0000": "els_phased_array",
                 "WS0001": "els_laser_array",
                 "WS0002": "els_laser_array",
                 "WS0005": "els_laser_array",
@@ -26,8 +22,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "flak",
-                "WS0004": "flak"
+                "WS0003": "els_hvydefmaser",
+                "WS0004": "els_hvydefmaser"
             }
         }
     ]

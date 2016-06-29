@@ -1,33 +1,39 @@
 {
     "displayName": "Close Support",
-    "fluxCapacitors": 5,
+    "fluxCapacitors": 4,
     "fluxVents": 20,
     "hullId": "els_chevalier",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "quality": 0.5,
     "variantId": "els_chevalier_supp",
     "weaponGroups": [
         {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoon",
+                "WS0002": "harpoon"
+            }
+        },
+        {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0000": "ionbeam"}
+            "weapons": {"WS0000": "els_sirocco"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0003": "els_glaive",
-                "WS0004": "els_glaive"
+                "WS0003": "ionbeam",
+                "WS0004": "ionbeam"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0001": "pdlaser",
-                "WS0002": "pdlaser",
-                "WS0005": "pdlaser",
-                "WS0006": "pdlaser"
+                "WS0005": "els_zdmaser",
+                "WS0006": "els_zdmaser"
             }
         }
     ]
