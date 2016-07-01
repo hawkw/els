@@ -1,0 +1,26 @@
+{
+	"id":"els_aminjector",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+
+	"statsScript":"data.shipsystems.scripts.AMInjectorStats",
+
+	"engineGlowColor":[255,100,235,215],
+	"engineGlowContrailColor":[255,100,235,50],
+	"engineGlowLengthMult":2.0,
+	"engineGlowWidthMult":1.4,
+	"engineGlowGlowMult":2.3,
+
+	"flameoutOnImpactChance":0.95,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":false,
+
+	"fadeActivationSoundOnChargedown":false,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+
+}

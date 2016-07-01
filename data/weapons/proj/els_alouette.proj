@@ -1,0 +1,22 @@
+{
+	"id":"els_alouette",
+	"specClass":"missile",
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/ELS/missiles/els_blumissile.png",
+    "size":[10,24],
+	"center":[5,12],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+    "explosionRadius":120, # purely visual
+	"engineSpec":{"turnAcc":720,
+				  "turnRate":450,
+				  "acc":7000,
+				  "dec":4500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    "style":"ELS_MissileBlue",
+				    "width":11.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,40 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 13,
+    "fluxVents": 20,
+    "hullId": "els_chevalier_ss",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "els_chevalier-ss_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "els_alkahest",
+                "WS0002": "els_alkahest"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0000": "hil"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_glaive",
+                "WS0004": "els_glaive"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "els_zdmaser",
+                "WS0006": "els_zdmaser"
+            }
+        }
+    ]
+}

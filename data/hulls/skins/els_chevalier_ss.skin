@@ -1,0 +1,27 @@
+{
+	"baseHullId":"els_chevalier",
+	"skinHullId":"els_chevalier_ss",
+	"hullName":"Chevalier-SS",
+#	"fleetPoints":6,
+#	"ordnancePoints":40,
+	"systemId":"els_aminjector",
+	"descriptionId":"els_chevalier",  # optional
+	"descriptionPrefix":"This prototype hull has received extensive modifications from the baseline spec.",
+	"spriteName":"graphics/ELS/ships/els_chevalier.png",
+	"baseValueMult":1.5,
+	#"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[],
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{ "WS0000": { "size": "LARGE"
+					                , "type": "BUILT_IN"
+					                }
+						, "WS0003": { "type": "HYBRID" }
+						, "WS0004": { "type": "HYBRID" }
+    },
+	"builtInMods":["high_maintenance"],
+	"builtInWeapons":{
+        "WS0000": "hil",
+    },
+}

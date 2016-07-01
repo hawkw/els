@@ -1,0 +1,37 @@
+{
+	"id":"els_positronblaster_hvy",
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":350,
+	"everyFrameEffect": "data.scripts.weapons.PositronBlasterParticleFX",
+	#"turretUnderSprite":"graphics/ELS/weapons/istl_socket_turret_med.png",
+	"turretSprite":"graphics/ELS/weapons/els_positroncannon_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/els_positroncannon_turret_recoil.png",
+	"turretGlowSprite":"graphics/ELS/weapons/els_positroncannon_turret_glow.png",
+	#"hardpointUnderSprite":"graphics/ELS/weapons/istl_socket_hardpoint_med.png",
+	"hardpointSprite":"graphics/ELS/weapons/els_positroncannon_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/els_positroncannon_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/ELS/weapons/els_positroncannon_hardpoint_glow.png",
+    "visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"glowColor":[255,75,100,255],
+	"turretOffsets":[19, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[21, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"muzzleFlashSpec":{"length":40.0,
+					   "spread":9.5,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.275,
+					   "particleCount":30,
+						"particleColor":[255,100,235,120], # "electron"-style
+						#"particleColor":[155,100,255,120] # AM Blaster-style
+	},
+	"projectileSpecId":"els_positron_bolt",  # projectile that will be fired
+	"fireSoundTwo":"els_blaster_med",
+}
