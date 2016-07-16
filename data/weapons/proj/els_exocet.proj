@@ -1,0 +1,22 @@
+{
+	"id":"els_exocet",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/ELS/missiles/els_grmissile.png",
+    "size":[10,24],
+	"center":[5,12],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,165,255,215],  # purely visual, will get a white additively blended core on top of this color
+    "explosionRadius":120, # purely visual
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":500,
+				  "acc":6500,
+				  "dec":4500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    "style":"ELS_BlueStreak",
+				    "width":9,
+				    "length":75.0,
+				    "angle":180.0}]
+}

@@ -18,16 +18,15 @@
 	},
     "ELS_BlueStreak":{
         "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-        "engineColor":[100,165,255,255],
-        "engineGlowGlowMult":2.1,
-        "contrailDuration":0.3,
+        "engineColor":[100,165,255,215],
+        "contrailDuration":0.7,
         "contrailWidthMult":1.0,
         "contrailWidthAddedFractionAtEnd":-0.25,
         "contrailMinSeg":5, # min segment length, in pixels
         "contrailMaxSpeedMult":0.75f,
-        "contrailAngularVelocityMult":0f,
+        "contrailAngularVelocityMult":0.5f,
         "contrailSpawnDistMult":-1, # how far away from engine it starts
-        "contrailColor":[100,165,255,50],
+        "contrailColor":[100,165,255,75],
         "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
     },
     "ELS_POSITRON":{

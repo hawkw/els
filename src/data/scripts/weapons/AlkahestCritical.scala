@@ -9,7 +9,8 @@ import org.lwjgl.util.vector.Vector2f
 /**
   * Created by hawk on 6/28/16.
   */
-class AlkahestCritical extends OnHitEffectPlugin {
+class AlkahestCritical
+extends OnHitEffectPlugin {
   private[this] val ArcCoreColor: Color = new Color(255, 100, 235, 255)
   private[this] val ExplosionColor: Color = new Color(255, 100, 235, 215)
   private[this] val FlareFringeColor: Color = new Color(255,100,235,50)
