@@ -1,0 +1,24 @@
+{
+	"starSystem":"rousseau",
+	"markets":[
+		{
+			"entities":["planet_liberte", "station_liberte"],
+			"faction":"directory",
+			"size":7,
+			"tariff":0.15,
+			"startingConditions":[
+				"urbanized_polity",
+				"regional_capital",
+				"orbital_station",
+				"military_base",
+                "headquarters",
+				"organics_complex",
+				"light_industrial_complex",
+				"light_industrial_complex",
+				"terran",
+				"population_7",
+			],
+		},
+	],
+
+}

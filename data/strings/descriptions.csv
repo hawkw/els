@@ -7,9 +7,27 @@ els_raad_pod,WEAPON,"Based on the highly successful Hatf strike munition, the Ra
 The Trident pod launcher fires three Ra'ad rockets in a claw formation. Additional rockets are stored internally, and the pod may be reloaded up to eight times in combat.",,,Fire Support
 els_hatf_rack,WEAPON,"The Hatf (""Vengeance"") Standoff-Range Attack Munition is a fast unguided rocket carrying a high-yield explosive charge.
 
-Although it lacks a guidance system, Hatf rockets move much faster than many comparable torpedo systems, such as the Reaper and Hammer, significantly improving hit probability.
+Lacking a guidance system, Hatf rockets are instead packed with extremely high-energy solid propellant. Increased acceleration over comparable torpedo systems, such as the Reaper and Hammer, results in significantly improved hit probability.
 
 This mounting is an external rack storing three Hatf rockets.",,,Strike
+els_hatf_pod,WEAPON,"The Hatf (""Vengeance"") Standoff-Range Attack Munition is a fast unguided rocket carrying a high-yield explosive charge.
+
+Lacking a guidance system, Hatf rockets are instead packed with extremely high-energy solid propellant. Increased acceleration over comparable torpedo systems, such as the Reaper and Hammer, results in significantly improved hit probability.
+
+An external pod mounting allows a larger magazine than simple rack mounts.",,,Strike
+els_alkahest,WEAPON,"An advanced close-range unguided rocket launcher, equally effective against shields and armour. Higly unstable positron-tipped warheads have a 25% chance to explode for critical damage. An autoloader allows for sustained operation in long engagements.",,,Close Support
+els_alkahest_pod,WEAPON,"Two Alkahest rocket launchers in an integrated mounting. An advanced close-range unguided rocket launcher, equally effective against shields and armour. Higly unstable positron-tipped warheads have a 25% chance to explode for critical damage. An autoloader allows for sustained operation in long engagements.",,,Close Support
+els_alouette_rack,WEAPON,"Heatseeking intermediate-range EMP missile with improved speed and maneuverability. External rack mounting slowly reloaded from an internal magazine.
+
+The Alouette missile system is conceptually similar to the Salamander, but featuring a propulsion system optimized for performance rather than for efficiency. Although the two missiles have similar reaction mass fractions, the Alouette's engine consumes propellant much more rapidly. Acceleration is thus sharply increased, but effective range is reduced. Alouette is thus considered an intermediate-range missile, rather than an LRM.
+
+Alliance engineers have also improved slightly on the Salamander's warhead design. While the quoted EM flux density is lower, at 2.5 gigatesla, the warhead contains unstable capacitors that produce a higher voltage EM pulse that frequently arcs away from the impact point.",,,Close Support
+els_alouette_pod,WEAPON,"Heatseeking intermediate-range EMP missile with improved speed and maneuverability. External pod mounting slowly reloaded from an internal magazine.
+
+The Alouette missile system is conceptually similar to the Salamander, but featuring a propulsion system optimized for performance rather than for efficiency. Although the two missiles have similar reaction mass fractions, the Alouette's engine consumes propellant much more rapidly. Acceleration is thus sharply increased, but effective range is reduced. Alouette is thus considered an intermediate-range missile, rather than an LRM.
+
+Alliance engineers have also improved slightly on the Salamander's warhead design. While the quoted EM flux density is lower, at 2.5 gigatesla, the warhead contains unstable capacitors that produce a higher voltage EM pulse that frequently arcs away from the impact point.",,,Close Support
+,,,,,
 els_sirocco,WEAPON,Basically what happens when you toss a handful of ferrous gravel into a big and mean electromagnetic coil.,,,Close Support
 els_zdmaser,WEAPON,"A low-energy microwave emitter designed to intercept inbound ordnance. While the beam is ineffective against the shields and armour of larger craft, its high-energy RF discharge can still cause damage to their electrical systems.",,,Point Defense
 els_hmaser,WEAPON,"A high-energy hydrogen maser. Though demanding on a ship's reactor, the Heavy Maser proves an effective support weapon, as its withering RF beam easily boils armour and disrupts enemy avionics.",,,Close Support
@@ -23,8 +41,8 @@ els_glaive,WEAPON,"Two Épée mass drivers in a common turret housing. The large
 A long-range support and shield suppression railgun. The Épée fires hypervelocity ferrous slugs boiling from induction heating within the weapon's high-intensity magnetic rails, giving it improved armour penetration over other kinetic weapons. However, the weapon requires a long cool-down period between firing, to dissipate heat and recharge its capacitors.",,,Close Support
 els_coilac,WEAPON,"A simple, reliable mark of linear induction autocannon, firing inert ferrous slugs in a three-round burst. This weapon system provides measurable, if modest, improvements over conventional close-support cannons, but lacks the demanding power and maintenance requirements of more advanced electromagnetic weapons.",,,Close Support
 els_coilac_heavy,WEAPON,"The Châtiment Heavy Coilgun is essentially a scaled-up version of the Arret, firing larger slugs but providing a similar weapon doctrine. Larger accelerator coils give this weapon a much higher muzzle velocity and longer effective range than its smaller cousin, and require proportionally more power to fire.",,,Close Support
-els_alkahest,WEAPON,"An advanced close-range unguided rocket launcher, equally effective against shields and armour. Higly unstable positron-tipped warheads have a 25% chance to explode for critical damage. An autoloader allows for sustained operation in long engagements.",,,Close Support
-els_alkahest_pod,WEAPON,"Two Alkahest rocket launchers in an integrated mounting. An advanced close-range unguided rocket launcher, equally effective against shields and armour. Higly unstable positron-tipped warheads have a 25% chance to explode for critical damage. An autoloader allows for sustained operation in long engagements.",,,Close Support
+,,,,,
+,,,,,
 ,,,,,
 els_chevalier,SHIP,The Chevalier-class destroyer is a versatile manouvre combatant that serves equally well as a fast-attack element in larger fleets or as the centrepiece of smaller patrols.,,,
 els_adept,SHIP,"This frigate serves as a dedicated sensor platform, carrying high-resolution sensors and C3I equipment that improve the detection and targeting systems of allied vessels. The Adept's multi-mode electronically-scanned array (MESA) RADAR can be tuned in range and resolution to support both long-range strategic early warning and tactical targeting capabilities. While not a primary combat spacecraft, the Adept is equipped to defend itself when engaged.
@@ -37,3 +55,5 @@ The Mistral boasts highly modular internal systems and replaceable components, w
 els_awacs,SHIP_SYSTEM,"A system of networked multi-mode electronically scanned array (MESA) RADAR and high-accuracy LADAR rangefinders which, when linked with onboard tactical communcations equipment,  improve the targeting, fire control, and detection capabilities of allied spacecraft.","Improves autofire accuracy, weapon range, and sensor range of friendly ships within 5000 SU. Generates flux while active.",,Support
 els_rcsburst,SHIP_SYSTEM,A system of on-demand surge tanks that release a burst of high-energy unstable propellants into the ship's main engines and reaction control system (RCS). The surge improves both acceleration and mobility for a brief period.,Improves mobility for a short time and grants a boost of momentum. Holds 3 charges that replenish over time.,,Movement
 els_aminjector,SHIP_SYSTEM,"An experimental antimatter-catalyzed fusion system that injects a thin beam of antiprotons into the ship's drive stream. Acting similarly to an afterburner, it allows the ship to maintain the performance of full burn indefinitely, without redirecting power from other ship systems (such as shields). However, the titanic energy released places the ship's engines under considerable stress, heightening the risk of damage, flameouts, and malfunctions.","That's right, you heard me. Antimatter injector. This is probably the worst idea ever.",,Movement
+,,,,,
+station_liberte,CUSTOM,"Liberté's heavily-fortified ""high ground"", the massive Al Qasbah Orbital is home to both myriad major orbital industries and to a sprawling Garde Nationale naval installation",,,
