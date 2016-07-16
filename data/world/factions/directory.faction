@@ -1,0 +1,280 @@
+{
+   "id":"directory",
+   "color":[0,255,100,255],
+   "displayName":"Directory",
+   "displayNameLong":"Allied Systems Directory",
+   "displayNameWithArticle":"Allied Systems Directory",
+	"logo":"graphics/factions/player_flag.png",
+    "crest":"graphics/factions/crest_player_flag.png",
+   "shipNamePrefix":"ASV",
+   "shipNameSources":{
+		"ELS_REVOLUTIONAIRE":3,
+        "ELS_FRENCH":2,
+        "ELS_ARABIC":2,
+        "ELS_FARSI":2,
+        "PERSIAN":2,
+        "REVOLUTIONARY":1,
+	},
+   "names":{
+		"modern":2,
+		"world":3,
+		"future":1,
+   },
+	"illegalCommodities":[
+		"organs",
+		"hand_weapons",
+        "lobster",
+	],
+	"internalComms":"directory_internal",
+    "music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_encounter_neutral",
+		"market_hostile":"music_tritach_encounter_hostile",
+		"market_friendly":"music_tritach_encounter_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+   "portraits":{
+       "standard_male":[
+           "graphics/portraits/portrait_hegemony01.png",
+           "graphics/portraits/portrait_hegemony02.png",
+           "graphics/portraits/portrait_hegemony06.png",
+           "graphics/portraits/portrait_mercenary04.png",
+           "graphics/portraits/portrait13.png",
+           "graphics/portraits/portrait15.png",
+           "graphics/portraits/portrait18.png",
+           "graphics/portraits/portrait20.png",
+           "graphics/portraits/portrait23.png",
+       ],
+       "standard_female":[
+           "graphics/portraits/portrait_hegemony03.png",
+           "graphics/portraits/portrait_hegemony04.png",
+           "graphics/portraits/portrait_mercenary05.png",
+           "graphics/portraits/portrait16.png",
+           "graphics/portraits/portrait21.png",
+           "graphics/portraits/portrait22.png",
+
+       ],
+   },
+   "ranks":{
+       "ranks":{
+           "spaceSailor":{"name":"Spacer"},
+           "spaceChief":{"name":"Chief"},
+           "spaceEnsign":{"name":"Ensign"},
+           "spaceLieutenant":{"name":"Lieutenant"},
+           "spaceCommander":{"name":"Adjutant"},
+           "spaceCaptain":{"name":"Commandant"},
+           "spaceAdmiral":{"name":"Admiral"},
+           "spaceMarshal":{"name":"Space Marshal"},
+
+           "groundPrivate":{"name":"Private"},
+           "groundSergeant":{"name":"Sergeant"},
+           "groundLieutenant":{"name":"Lieutenant"},
+           "groundCaptain":{"name":"Adjutant"},
+           "groundMajor":{"name":"Major"},
+           "groundColonel":{"name":"Commandant"},
+           "groundGeneral":{"name":"Marshal"},
+       },
+       "posts":{
+            "patrolCommander":{"name":"Patrol Commander"},
+            "fleetCommander":{"name":"Squadron Commander"},
+            "baseCommander":{"name":"Installation Commander"},
+            "supplyOfficer": {"name":"Supply Commissar"},
+       },
+   },
+   "shipRoles":{
+       "interceptor":{
+   			"talon_wing":10,
+   			"wasp_wing":20,
+   			"thunder_wing":10,
+   			"fallback":{"fighter":1},
+   		},
+   		"fighter":{
+   			"broadsword_wing":10,
+   			"gladius_wing":10,
+   			"xyphos_wing":10,
+   			"fallback":{"interceptor":1},
+   		},
+   		"bomber":{
+   			"piranha_wing":10,
+   			"dagger_wing":10,
+   		},
+
+       "fastAttack":{
+           "els_chevalier_fast":5,
+           "fallback":{"combatSmall":1},
+       },
+
+       "escortSmall":{
+            "els_adept_std":1,
+            "els_damascus_escort":10,
+            "fallback":{"combatSmall":1},
+       },
+       "escortMedium":{
+            "els_chevalier_patrol":10,
+            "fallback":{"combatMedium":1},
+       },
+
+       "combatSmall":{
+            "els_adept_bal":5,
+           "fallback":{"escortSmall":1},
+       },
+       "combatMedium":{
+           "els_chevalier_std":20,
+           "els_hallebarde_std":15,
+           "fallback":{"combatSmall":2},
+       },
+       "combatLarge":{
+           "apogee_Balanced":10,
+           "aurora_Assault":4,
+           "aurora_Strike":4,
+           "fallback":{"combatMedium":2},
+       },
+       "combatCapital":{
+           "odyssey_Balanced":10,
+           "fallback":{"combatLarge":2},
+       },
+
+       # hybrid ships with good combat and cargo capacity
+       "combatFreighterSmall":{
+           "els_mistral_m_std":20,
+            "els_mistral_bal":10,
+           "fallback":{"freighterSmall":1},
+       },
+       "combatFreighterMedium":{
+           "mule_d_Standard":10,
+           "mule_Standard":10,
+           "gemini_Standard":10,
+           "fallback":{"combatFreighterSmall":2},
+       },
+       "combatFreighterLarge":{
+           "venture_Balanced":10,
+           "fallback":{"combatFreighterMedium":2},
+       },
+       "civilianRandom":{
+           "els_mistral_bal":5,
+           "fallback":{"freighterSmall":1},
+       },
+
+       # carriers
+       "carrierSmall":{
+           "gemini_Standard":10,
+           "fallback":{"carrierMedium":0.5},
+       },
+       "carrierMedium":{
+           "heron_Standard":10,
+           "fallback":{"carrierSmall":2},
+       },
+       "carrierLarge":{
+           "fallback":{"carrierMedium":2},
+       },
+       # freighters and such
+       "freighterSmall":{
+           "els_mistral_bal":10,
+           "fallback":{"freighterMedium":0.5},
+       },
+       "freighterMedium":{
+           "tarsus_d_Standard":5,
+           "buffalo_d_Standard":5,
+           "buffalo_Standard":10,
+           "tarsus_Standard":10,
+           "buffalo_hegemony_Standard":10,
+           "fallback":{"freighterSmall":2},
+       },
+       "freighterLarge":{
+           "atlas_Standard":10,
+           "fallback":{"freighterMedium":2},
+       },
+
+       "tankerSmall":{
+           "dram_Light":10,
+           "fallback":{"tankerMedium":0.5},
+       },
+       "tankerMedium":{
+           "phaeton_Standard":10,
+           "fallback":{"tankerSmall":2},
+       },
+       "tankerLarge":{
+           "prometheus_Super":10,
+           "fallback":{"tankerMedium":2},
+       },
+
+       "personnelSmall":{
+           "mercury_d_Standard":8,
+           "mercury_Attack":3,
+           "mercury_PD":3,
+           "mercury_Standard":3,
+           "mercury_FS":3,
+           "kite_Stock":10,
+           "fallback":{"personnelMedium":0.5},
+       },
+       "personnelMedium":{
+           "valkyrie_Elite":10,
+           "nebula_Standard":2,
+           "fallback":{"personnelSmall":2},
+       },
+       "personnelLarge":{
+           "fallback":{"personnelMedium":2},
+       },
+
+       # utility ships
+       "tug":{
+           "ox_Standard":10,
+           "fallback":{"utility":1},
+       },
+       "crig":{
+           "crig_Standard":10,
+           "fallback":{"utility":1},
+       },
+       "utility":{
+           "crig_Standard":10,
+           "ox_Standard":10,
+       },
+   },
+   "traits":{
+       "admiral":{
+
+       },
+       "captain":{
+           "timid":3,
+           "cautious":10,
+           "steady":10,
+           "aggressive":5,
+       },
+   },
+   "doctrine":{
+       # ship distribution
+       "interceptors":10,
+       "fighters":4,
+       "bombers":6,
+       "small":8,
+       "fast":10,
+       "medium":10,
+       "large":5,
+       "capital":1,
+
+       # as fraction of combat ships of same size
+       "escortSmallFraction":1,
+       "escortMediumFraction":1,
+
+       # freighters tend to be dedicated to role
+       "combatFreighterProbability":0.25,
+
+       # tend toward larger ships
+       "minPointsForCombatCapital":17,
+       "minPointsForLargeCarrier":15,
+
+       # increased preference for carriers
+       "smallCarrierProbability":0.4,
+       "mediumCarrierProbability":0.4,
+       "largeCarrierProbability":0.4,
+
+       # officers ; Da-M is somewhat elite
+       "officersPerPoint":0.45,
+       "officerLevelPerPoint":0.4,
+       "officerLevelBase":7,
+       "officerLevelVariance":0.35,
+   },
+
+},
