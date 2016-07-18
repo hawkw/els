@@ -11,6 +11,7 @@ package object world {
 
   implicit class AddMarket(val planet: SectorEntityToken)
   extends AnyVal {
+
     def addMarket( faction: String, name: String, size: Int, tariff: Float
                  , conditions: Seq[String], submarkets: Seq[String]
                  , connectedEntities: SectorEntityToken* ): MarketAPI = {
