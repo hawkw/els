@@ -1,0 +1,86 @@
+{
+  "bounds": [
+    -14,
+    -4.5,
+    -6.5,
+    -11.5,
+    13,
+    -2.5,
+    13,
+    2.5,
+    -6.5,
+    11.5,
+    -14,
+    4.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "els_zdmaser"
+  },
+  "center": [
+    12,
+    16
+  ],
+  "collisionRadius": 0,
+  "engineSlots": [
+    {
+      "angle": -178.02507,
+      "contrailSize": 128,
+      "length": 14.956628,
+      "location": [
+        -11,
+        6.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 3.032678
+    },
+    {
+      "angle": 177.797409,
+      "contrailSize": 128,
+      "length": 14.577542,
+      "location": [
+        -11,
+        -6.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 3.997626
+    },
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 25,
+      "location": [
+        -11.5,
+        -0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 6
+    }
+  ],
+  "height": 32,
+  "hullId": "els_djinn",
+  "hullName": "Djinn",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/ELS/ships/els_djinn_interceptor.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0001",
+      "locations": [
+        13,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+  ],
+  "width": 24
+}
