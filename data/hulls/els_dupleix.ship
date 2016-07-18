@@ -1,0 +1,208 @@
+{
+  "bounds": [
+    -83,
+    13.5,
+    -77.5,
+    44.5,
+    -47,
+    61.5,
+    13.5,
+    46.5,
+    41.5,
+    21.5,
+    73,
+    34.5,
+    74.5,
+    22,
+    88.5,
+    9.5,
+    88.5,
+    -9.5,
+    74.5,
+    -22,
+    73,
+    -34.5,
+    27,
+    -37,
+    13.5,
+    -46.5,
+    -47,
+    -61.5,
+    -77.5,
+    -44.5,
+    -83,
+    -13.5
+  ],
+  "center": [
+    62,
+    96
+  ],
+  "collisionRadius": 96.490929,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 45,
+      "location": [
+        -79,
+        37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 45,
+      "location": [
+        -79,
+        -37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -79.5,
+        31
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 24,
+      "location": [
+        -79.5,
+        -31
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5
+    },
+    {
+      "angle": 180,
+      "contrailSize": 5,
+      "length": 24.5,
+      "location": [
+        -79.5,
+        43
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5
+    },
+    {
+      "angle": -180,
+      "contrailSize": 5,
+      "length": 24.5,
+      "location": [
+        -79.5,
+        -43
+      ],
+      "style": "ELS_MILITARY",
+      "width": 5
+    }
+  ],
+  "height": 192,
+  "hullId": "els_dupleix",
+  "hullName": "Dupleix",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 108.295891,
+  "spriteName": "graphics/ELS/ships/els_dupleix.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        85,
+        -4
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        36,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -38.659809,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        0.5,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 38.659809,
+      "arc": 260,
+      "id": "WS0004",
+      "locations": [
+        0.5,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -112.011284,
+      "arc": 260,
+      "id": "WS0005",
+      "locations": [
+        -32,
+        -43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 112.011284,
+      "arc": 260,
+      "id": "WS0006",
+      "locations": [
+        -32,
+        43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -33.5,
+        -0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 124
+}

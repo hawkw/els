@@ -1,0 +1,26 @@
+{
+  "displayName": "Combat",
+  "fluxCapacitors": 12,
+  "fluxVents": 10,
+  "hullId": "els_dupleix",
+  "hullMods": [
+    "blast_doors",
+    "targetingunit"
+  ],
+  "quality": 0,
+  "variantId": "els_dupleix_combat",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "els_alouette_rack",
+        "WS0002": "els_hvydefmaser",
+        "WS0003": "els_tacmaser",
+        "WS0004": "els_tacmaser",
+        "WS0005": "els_tacmaser",
+        "WS0006": "els_tacmaser"
+      }
+    }
+  ]
+}
