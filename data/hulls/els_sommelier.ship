@@ -1,0 +1,155 @@
+{
+  "bounds": [
+    -62,
+    -20,
+    -41.5,
+    -32,
+    29.5,
+    -25.5,
+    54.5,
+    -7.5,
+    54.5,
+    7.5,
+    29.5,
+    25.5,
+    -41.5,
+    32,
+    -62,
+    20
+  ],
+  "builtInWeapons": {
+    "WS0004": "els_miniflakker"
+  },
+  "center": [
+    37,
+    64
+  ],
+  "collisionRadius": 66.620193,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 26,
+      "location": [
+        -64,
+        15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 26,
+      "location": [
+        -64,
+        -15.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 26.5,
+      "location": [
+        -64,
+        8.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 26.5,
+      "location": [
+        -64,
+        -8.5
+      ],
+      "style": "LOW_TECH",
+      "width": 8
+    }
+  ],
+  "height": 128,
+  "hullId": "els_sommelier",
+  "hullName": "els_sommelier",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 74.582169,
+  "spriteName": "graphics/ELS/ships/els_sommelier.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        21.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 190,
+      "id": "WS0002",
+      "locations": [
+        -5.5,
+        11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 190,
+      "id": "WS0003",
+      "locations": [
+        -5.5,
+        -11
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 290,
+      "id": "WS0004",
+      "locations": [
+        -37,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        10.5,
+        -27,
+        10,
+        25.5,
+        -22,
+        28,
+        -21.5,
+        -28.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 74
+}
