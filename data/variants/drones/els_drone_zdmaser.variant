@@ -1,0 +1,18 @@
+{
+	"displayName":"Maser",
+	"hullId":"els_drone_zd",
+	"variantId":"els_drone_zdmaser",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"els_zdmaser_sm",
+		 		   },
+		},
+	],
+}

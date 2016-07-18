@@ -1,0 +1,85 @@
+{
+  "bounds": [],
+  "builtInWeapons": {
+    "WS0003": "blinker_red"
+  },
+  "center": [
+    12,
+    12
+  ],
+  "collisionRadius": 0,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 19,
+      "location": [
+        -8,
+        -0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 4
+    },
+    {
+      "angle": 141.519806,
+      "contrailSize": 3.512666,
+      "length": 12.655643,
+      "location": [
+        -7,
+        3
+      ],
+      "style": "ELS_MILITARY",
+      "width": 3.512666
+    },
+    {
+      "angle": -141.519806,
+      "contrailSize": 3.512666,
+      "length": 12.655643,
+      "location": [
+        -7,
+        -3
+      ],
+      "style": "ELS_MILITARY",
+      "width": 3.512666
+    }
+  ],
+  "height": 24,
+  "hullId": "new_hull",
+  "hullName": "New Hull",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    2,
+    -0
+  ],
+  "shieldRadius": 16.568041,
+  "spriteName": "graphics/ELS/ships/drones/els_qarin.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        7.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 310,
+      "id": "WS0003",
+      "locations": [
+        -3,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 24
+}

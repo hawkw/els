@@ -1,0 +1,29 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 7,
+  "fluxVents": 5,
+  "hullId": "els_sommelier",
+  "hullMods": [
+    "blast_doors"
+  ],
+  "quality": 0,
+  "variantId": "els_sommelier_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "els_tacmaser",
+        "WS0003": "els_tacmaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "els_hvydefmaser",
+        "WS0004": "els_miniflakker"
+      }
+    }
+  ]
+}
