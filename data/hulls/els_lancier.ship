@@ -1,0 +1,118 @@
+{
+  "bounds": [],
+  "center": [
+    45,
+    67.5
+  ],
+  "collisionRadius": 72.575821,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -54.5,
+        -37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -54.5,
+        37
+      ],
+      "style": "ELS_MILITARY",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 50,
+      "location": [
+        -46.5,
+        -0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 15
+    }
+  ],
+  "height": 135,
+  "hullId": "els_lancier",
+  "hullName": "Lancier",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 83.815269,
+  "spriteName": "graphics/ELS/ships/els_lancier.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 90,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        -17.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 260,
+      "id": "WS0004",
+      "locations": [
+        -17.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        55.5,
+        -2.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 45,
+      "id": "WS0002",
+      "locations": [
+        16,
+        15
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -20.5,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 90
+}

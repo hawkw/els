@@ -1,0 +1,29 @@
+{
+    "displayName": "Kinetic",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "els_lancier",
+    "hullMods": [],
+    "quality": 0,
+    "variantId": "els_lancier_std",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "els_autogun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "els_zdmaser",
+                "WS0004": "els_zdmaser"
+            }
+        }
+    ]
+}
