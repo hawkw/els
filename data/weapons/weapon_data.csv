@@ -20,7 +20,7 @@ Alouette IRM Pod,els_alouette_pod,2,850,1000,,150,1000,75,30,11,4,0.05,2,FRAGMEN
 Tactical Maser,els_tacmaser,2,450,875,75,,95,0,25,5,,,,ENERGY,,80,0.2,0.2,,,,,,,2500,,,,,,23,
 Heavy Maser,els_hmaser,2,2500,1000,100,,120,0,15,12,,,,ENERGY,,300,0.1,0.1,,,,,,,2400,,,,,,20
 Point Defense Maser,els_zdmaser,3,600,500,80,,65,0,115,7,,,,FRAGMENTATION,,25,0.1,,,,,,,,3000,,,,,"PD,ANTI_FTR",64
-Light PD Maser,els_zdmaser_sm,2,400,450,75,,50,0,110,5,,,,FRAGMENTATION,,20,0.2,0.2,,,,,,,3000,,,,,"PD,PD_ONLY,ANTI_FTR,",32,
+Light PD Maser,els_zdmaser_sm,2,400,450,75,,50,0,110,5,,,,FRAGMENTATION,,20,0.2,0.2,,,,,,,3000,,,,,"PD,ANTI_FTR,",32,
 Zone Defense Maser,els_hvydefmaser,3,1800,550,80,,60,0,110,13,,,,FRAGMENTATION,,75,0.1,,,,,,,,3000,,,,,"PD,ANTI_FTR",192
 Excimer Lance,els_excimer,2,2000,700,800,,,0,25,12,6,0.5,,ENERGY,,1200,0.1,0.1,0.3,0.1,,,,,9000,,,,,,15.72
 Strobe CIWS,els_pdlaser,2,400,450,,10,,10,115,7,,,,FRAGMENTATION,,25,0.1,0,0.1,0.01,,,,,3000,,,,,PD,100
