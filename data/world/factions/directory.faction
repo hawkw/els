@@ -85,15 +85,14 @@
    },
    "shipRoles":{
        "interceptor":{
-   			"talon_wing":10,
-   			"wasp_wing":20,
+   			"els_djinn_wing":30,
+   			"wasp_wing":10,
    			"thunder_wing":10,
    			"fallback":{"fighter":1},
    		},
    		"fighter":{
    			"broadsword_wing":10,
    			"gladius_wing":10,
-   			"xyphos_wing":10,
    			"fallback":{"interceptor":1},
    		},
    		"bomber":{
@@ -103,21 +102,28 @@
 
        "fastAttack":{
            "els_chevalier_fast":5,
+            "els_damascus_recon":20,
+            "els_lancier_std":10,
            "fallback":{"combatSmall":1},
        },
 
        "escortSmall":{
             "els_adept_std":1,
             "els_damascus_escort":10,
+            "els_lancier_cs":5,
             "fallback":{"combatSmall":1},
        },
        "escortMedium":{
             "els_chevalier_patrol":10,
+            "els_dupleix_escort":2,
             "fallback":{"combatMedium":1},
        },
 
        "combatSmall":{
-            "els_adept_bal":5,
+            "els_adept_std":1,
+            "els_adept_bal":1,
+            "els_lancier_std":10,
+            "els_lancier_cs":5,
            "fallback":{"escortSmall":1},
        },
        "combatMedium":{
@@ -159,11 +165,12 @@
 
        # carriers
        "carrierSmall":{
-           "gemini_Standard":10,
+           "els_sommelier_support":5,
            "fallback":{"carrierMedium":0.5},
        },
        "carrierMedium":{
-           "heron_Standard":10,
+           "els_dupleix_support":20,
+           "els_dupleix_assault":10,
            "fallback":{"carrierSmall":2},
        },
        "carrierLarge":{
@@ -189,6 +196,7 @@
 
        "tankerSmall":{
            "dram_Light":10,
+           "els_sommelier_support":2,
            "fallback":{"tankerMedium":0.5},
        },
        "tankerMedium":{
