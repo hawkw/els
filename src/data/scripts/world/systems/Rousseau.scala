@@ -111,20 +111,20 @@ object Rousseau {
     // Brumaire's two smaller moons
     val fraternite = system.addPlanet("moon_fraternite",
                                       brumaire, "Fraternité",
-                                      "rocky_metallic", 30, 85, 1650, 50)
+                                      "water", 30, 85, 1550, 50)
     val egalite = system.addPlanet("moon_egalite",
                                       brumaire, "Égalité",
-                                      "rocky_ice", 45, 45, 1870, 65)
+                                      "rocky_ice", 45, 45, 1670, 65)
 
 
     // Liberte & its' station -------------------------------------------------
     val liberte = system.addPlanet("planet_liberte",
                                    brumaire,
                                    "Liberté",
-                                  "terran-eccentric",
+                                  "terran",
                                    0,
-                                   135f,
-                                   1460f,
+                                   120f,
+                                   1300f,
                                    42f)
 
     // add Liberte city lights
