@@ -5,7 +5,7 @@
     "hullId": "els_damascus",
     "hullMods": ["fluxbreakers"],
     "quality": 0,
-    "variantId": "els_damascus_std",
+    "variantId": "els_damascus_recon",
     "weaponGroups": [
         {
             "autofire": false,
