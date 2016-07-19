@@ -3,7 +3,7 @@
    "color":[0,255,100,255],
    "displayName":"Directory",
    "displayNameLong":"Allied Systems Directory",
-   "displayNameWithArticle":"Allied Systems Directory",
+   "displayNameWithArticle":"the Allied Systems Directory",
 	"logo":"graphics/factions/player_flag.png",
     "crest":"graphics/factions/crest_player_flag.png",
    "shipNamePrefix":"ASV",
@@ -85,13 +85,12 @@
    },
    "shipRoles":{
        "interceptor":{
-   			"els_djinn_wing":30,
-   			"wasp_wing":10,
+   			"els_djinn_wing":20,
    			"thunder_wing":10,
    			"fallback":{"fighter":1},
    		},
    		"fighter":{
-   			"broadsword_wing":10,
+   			"xyphos_wing":5,
    			"gladius_wing":10,
    			"fallback":{"interceptor":1},
    		},
@@ -102,8 +101,8 @@
 
        "fastAttack":{
            "els_chevalier_fast":5,
-            "els_damascus_recon":20,
-            "els_lancier_std":10,
+           "els_damascus_recon":20,
+           "els_lancier_std":10,
            "fallback":{"combatSmall":1},
        },
 
@@ -132,9 +131,13 @@
            "fallback":{"combatSmall":2},
        },
        "combatLarge":{
+           "falcon_Attack":10,
+           "falcon_CS":10,
+           "eagle_Assault":10,
+           "eagle_Balanced":10,
            "apogee_Balanced":10,
-           "aurora_Assault":4,
-           "aurora_Strike":4,
+           "gryphon_Standard":2,
+           "gryphon_FS":2,
            "fallback":{"combatMedium":2},
        },
        "combatCapital":{
@@ -144,9 +147,11 @@
 
        # hybrid ships with good combat and cargo capacity
        "combatFreighterSmall":{
-           "els_mistral_m_std":20,
-            "els_mistral_bal":10,
-           "fallback":{"freighterSmall":1},
+            "els_mistral_m_std":20,
+            "els_mistral_bal":5,
+            "hound_Standard":10,
+            "cerberus_Standard":5,
+            "fallback":{"freighterSmall":1},
        },
        "combatFreighterMedium":{
            "mule_d_Standard":10,
@@ -160,6 +165,11 @@
        },
        "civilianRandom":{
            "els_mistral_bal":5,
+           "mercury_Attack":3,
+           "mercury_PD":3,
+           "mercury_Standard":3,
+           "mercury_FS":3,
+           "hermes_Standard":10,
            "fallback":{"freighterSmall":1},
        },
 
@@ -278,10 +288,10 @@
        "mediumCarrierProbability":0.4,
        "largeCarrierProbability":0.4,
 
-       # officers ; Da-M is somewhat elite
-       "officersPerPoint":0.45,
-       "officerLevelPerPoint":0.4,
-       "officerLevelBase":7,
+       # officers
+       "officersPerPoint":0.35,
+       "officerLevelPerPoint":0.3,
+       "officerLevelBase":6,
        "officerLevelVariance":0.35,
    },
 
