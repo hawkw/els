@@ -1,21 +1,21 @@
 {
-    "displayName": "Assault",
+    "displayName": "Close Support",
     "fluxCapacitors": 9,
     "fluxVents": 10,
     "hullId": "els_lancier",
-    "hullMods": ["magazines"],
+    "hullMods": ["targetingunit"],
     "quality": 0,
-    "variantId": "els_lancier_std",
+    "variantId": "els_lancier_cs",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0002": "els_excimer"}
+            "weapons": {"WS0001": "railgun"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0001": "els_stinger"}
+            "weapons": {"WS0002": "els_hmaser"}
         },
         {
             "autofire": true,

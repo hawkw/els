@@ -5,7 +5,7 @@
     "hullId": "els_dupleix",
     "hullMods": ["blast_doors"],
     "quality": 0,
-    "variantId": "els_dupleix_combat",
+    "variantId": "els_dupleix_assault",
     "weaponGroups": [
         {
             "autofire": false,

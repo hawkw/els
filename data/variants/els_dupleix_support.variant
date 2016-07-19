@@ -1,22 +1,22 @@
 {
-    "displayName": "Assault",
+    "displayName": "Close Support",
     "fluxCapacitors": 9,
     "fluxVents": 20,
     "hullId": "els_dupleix",
-    "hullMods": ["blast_doors"],
+    "hullMods": ["targetingunit"],
     "quality": 0,
-    "variantId": "els_dupleix_combat",
+    "variantId": "els_dupleix_support",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "lightag"}
+            "weapons": {"WS0001": "els_alouette_rack"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0002": "els_autogun",
+                "WS0002": "els_glaive",
                 "WS0003": "els_tacmaser"
             }
         },

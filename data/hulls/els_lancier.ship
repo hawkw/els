@@ -87,7 +87,7 @@
       ],
       "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "COMPOSITE"
     },
     {
       "angle": 0,
@@ -99,7 +99,7 @@
       ],
       "mount": "HARDPOINT",
       "size": "MEDIUM",
-      "type": "HYBRID"
+      "type": "ENERGY"
     },
     {
       "angle": 0,

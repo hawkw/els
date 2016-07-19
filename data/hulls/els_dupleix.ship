@@ -141,51 +141,27 @@
       ],
       "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "HYBRID"
+      "type": "BALLISTIC"
     },
     {
-      "angle": -38.659809,
-      "arc": 260,
-      "id": "WS0003",
-      "locations": [
-        0.5,
-        -34
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "ENERGY"
-    },
-    {
-      "angle": 38.659809,
-      "arc": 260,
-      "id": "WS0004",
-      "locations": [
-        0.5,
-        34
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "ENERGY"
-    },
-    {
-      "angle": -112.011284,
+      "angle": -110.09523,
       "arc": 260,
       "id": "WS0005",
       "locations": [
-        -32,
-        -43
+        -28,
+        -42
       ],
       "mount": "TURRET",
       "size": "SMALL",
       "type": "ENERGY"
     },
     {
-      "angle": 112.011284,
+      "angle": 110.09523,
       "arc": 260,
       "id": "WS0006",
       "locations": [
-        -32,
-        43
+        -28,
+        42
       ],
       "mount": "TURRET",
       "size": "SMALL",
@@ -202,6 +178,18 @@
       "mount": "HIDDEN",
       "size": "LARGE",
       "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 24.05735,
+      "arc": 260,
+      "id": "WS0003",
+      "locations": [
+        11.5,
+        24.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
     }
   ],
   "width": 124
