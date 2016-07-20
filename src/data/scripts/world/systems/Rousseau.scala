@@ -10,12 +10,17 @@ import com.fs.starfarer.api.impl.campaign.ids.Submarkets._
 
 import java.awt.Color
 
+import me.hawkweisman.elizalib.scalaAPIs.WorldgenUtil.RichPlanet
+import me.hawkweisman.elizalib.scalaAPIs.graphics.SpriteUtil._
+
 /**
   * Created by hawk on 7/12/16.
   */
 object Rousseau {
 
   def generate(sector: SectorAPI): Unit = {
+
+    val s = Global.getSettings
     val system = sector createStarSystem "Rousseau"
     val hyper = Global.getSector.getHyperspace
     system.setBackgroundTextureFilename("graphics/backgrounds/background6.jpg")
@@ -23,7 +28,7 @@ object Rousseau {
     // create the star and generate the hyperspace anchor for this system
     val star = system.initStar("rousseau", // unique id for this star
                                "star_white", // id in planets.json
-                                 840f,		// radius (in pixels at default zoom)
+                                 750f,		// radius (in pixels at default zoom)
                                  1100, // corona radius, from star edge
                                  5f, // solar wind burn level
                                  0.6f, // flare probability
@@ -56,7 +61,9 @@ object Rousseau {
 
     // the inner system (Sophie)
     val sophie = system.addPlanet("planet_sophie", star, "Sophie",
-                                "irradiated", 60, 100, 3500, 200)
+                                "irradiated", 60, 100, 1500, 200)
+    val heloise = system.addPlanet("planet_heloise", star, "Heloise",
+                                   "barren", 90, 75, 3000, 250)
 
     val sophieSpec = sophie.getSpec
     sophieSpec.setPlanetColor(new Color(220,245,255,255))
@@ -84,37 +91,57 @@ object Rousseau {
                                     "gas_giant",
                                     0,
                                     400, // planet radius
-                                    6500, // orbital radius
+                                    6800, // orbital radius
                                     350 // orbital period
                                      )
 
     // brumaire visual spec
-    val brumaireSpec = brumaire.getSpec
+    brumaire.setSpec ( planetColor = Some(new Color(70,155,205,255))
+                     , atmosphereColor = Some(new Color(110,120,150,150))
+                     , cloudColor = Some(new Color(190,210,255,200))
+                     , iconColor = Some(new Color(70,155,205,255))
+                     , atmosphereThickness = Some(0.6f)
+                     , glowTexture = Some(("hab_glows", "aurorae"))
+                     , glowColor = Some(new Color(220,130,225,62))
+                     , reverseLightForGlow = Some(true)
+                     )
+//    magec1.getSpec().setPlanetColor(new Color(50,100,255,255));
+//    magec1.getSpec().setAtmosphereColor(new Color(120,130,100,150));
+//    magec1.getSpec().setCloudColor(new Color(195,230,255,200));
+//    magec1.getSpec().setIconColor(new Color(120,130,100,255));
+//
+//    brumaireSpec.setPlanetColor(new Color(70,235,255,255))
+//    brumaireSpec.setAtmosphereColor(new Color(100,220,255,150))
+//    brumaireSpec.setCloudColor(new Color(200,230,250,200))
 
-    brumaireSpec.setPlanetColor(new Color(200,245,255,255))
-    brumaireSpec.setAtmosphereColor(new Color(220,240,250,150))
-    brumaireSpec.setCloudColor(new Color(220,240,250,200))
-    brumaireSpec.setGlowTexture(Global.getSettings.getSpriteName
-    ("hab_glows", "banded"))
-    brumaireSpec.setGlowColor(new Color(0,205,255,62))
-    brumaireSpec.setUseReverseLightForGlow(true)
-    brumaireSpec.setIconColor(new Color(250,205,225,255))
+//    brumaireSpec.setGlowTexture(s.getSpriteName("hab_glows", "banded"))
+//    brumaireSpec.setGlowColor(new Color(0,205,255,62))
+//    brumaireSpec.setGlowColor(new Color(160,205,200,62))
 
-    brumaire.applySpecChanges()
 
     // Brumaire's rings & moons -----------------------------------------------
     system.addRingBand(brumaire, "misc", "rings1", 256f, 2, Color.white, 256f,
-                       875, 33f, Terrain.RING, null)
+                       700, 33f, Terrain.RING, null)
     system.addRingBand(brumaire, "misc", "rings1", 256f, 3, Color.white, 256f,
-                       1050, 33f, Terrain.RING, null)
+                       875, 33f, Terrain.RING, null)
+
+    system.addRingBand(brumaire, "misc", "rings1", 256f, 1, Color.white, 256f,
+                       1630, 90f, Terrain.RING, "The Fog Band")
+    system.addRingBand(brumaire, "misc", "rings1", 256f, 2, Color.white, 256f,
+                       1720, 33f, Terrain.RING, "The Fog Band")
 
     // Brumaire's two smaller moons
     val fraternite = system.addPlanet("moon_fraternite",
                                       brumaire, "Fraternité",
-                                      "water", 30, 85, 1550, 50)
+                                      "water", 30, 85, 1310, 50)
+    fraternite.setSpec( glowTexture = Some(("hab_glows", "aurorae"))
+                      , glowColor = Some(new Color(220,130,225,62))
+                      , reverseLightForGlow = Some(true)
+                      , atmosphereThickness = Some(0.4f))
+
     val egalite = system.addPlanet("moon_egalite",
-                                      brumaire, "Égalité",
-                                      "rocky_ice", 45, 45, 1670, 65)
+                                    brumaire, "Égalité",
+                                   "rocky_ice", 45, 45, 1430, 65)
 
 
     // Liberte & its' station -------------------------------------------------
@@ -124,15 +151,14 @@ object Rousseau {
                                   "terran",
                                    0,
                                    120f,
-                                   1300f,
+                                   1050f,
                                    42f)
 
     // add Liberte city lights
-    liberte.getSpec.setGlowTexture(
-      Global.getSettings.getSpriteName("hab_glows", "sindria"))
-    liberte.getSpec.setGlowColor(new Color(255,255,255,255))
-    liberte.getSpec.setUseReverseLightForGlow(true)
-    liberte.applySpecChanges()
+    liberte.setSpec( glowTexture = Some(("hab_glows", "sindria"))
+                   , glowColor = Some(new Color(255,255,255,255))
+                   , reverseLightForGlow = Some(true)
+                   )
 
     liberte.setInteractionImage("illustrations", "city_from_above")
 
@@ -156,15 +182,37 @@ object Rousseau {
                       , Seq( GENERIC_MILITARY, SUBMARKET_BLACK, SUBMARKET_OPEN)
                       , connectedEntities = liberteStation)
 
-    val jumpPoint = Global.getFactory.createJumpPoint("liberte_jump_point",
-                                                       "Liberté Crossing")
 
-    val orbit = Global.getFactory.createCircularOrbit(brumaire, 0, 500, 30)
-    jumpPoint.setOrbit(orbit)
+
+    // Brumaire's Trojans --------------------------------------------------
+    val brumaireL4Trojans = system.addTerrain(Terrain.ASTEROID_FIELD,
+                                      new AsteroidFieldParams(
+                                        200f, // min radius
+                                        400f, // max radius
+                                        16, // min asteroid count
+                                        24, // max asteroid count
+                                        4f, // min asteroid radius
+                                        16f, // max asteroid radius
+                                        "Brumaire L4 Trojans"))
+    val brumaireL5Trojans = system.addTerrain(Terrain.ASTEROID_FIELD,
+                                      new AsteroidFieldParams(
+                                        200f, // min radius
+                                        400f, // max radius
+                                        16, // min asteroid count
+                                        24, // max asteroid count
+                                        4f, // min asteroid radius
+                                        16f, // max asteroid radius
+                                        "Brumaire L4 Asteroids"))
+    brumaireL4Trojans.setCircularOrbit(brumaire, 230 + 60, 3100, 450)
+    brumaireL5Trojans.setCircularOrbit(brumaire, 230 - 60, 3100, 450)
+
+    val jumpPoint = Global.getFactory.createJumpPoint("liberte_jump_point",
+                                                      "Liberté Crossing")
+    jumpPoint.setCircularOrbit(brumaire, 230 + 60, 3100, 450)
     jumpPoint.setRelatedPlanet(liberte)
     jumpPoint.setStandardWormholeToHyperspaceVisual()
-    jumpPoint.setCircularOrbit( star, 60, 3000, 100)
     system.addEntity(jumpPoint)
+
 //
 //    system.addRingBand(brumaire, "misc", "rings1", 256f, 3, Color.white, 256f,
 //                       700,
