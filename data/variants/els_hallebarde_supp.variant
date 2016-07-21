@@ -1,6 +1,6 @@
 {
     "displayName": "Fire Support",
-    "fluxCapacitors": 12,
+    "fluxCapacitors": 11,
     "fluxVents": 11,
     "hullId": "els_hallebarde",
     "hullMods": ["eccm"],
@@ -16,17 +16,17 @@
             }
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS0007": "taclaser"}
+            "weapons": {"WS0007": "els_tacmaser"}
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {"WS0006": "els_sirocco"}
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS0003": "vulcan",

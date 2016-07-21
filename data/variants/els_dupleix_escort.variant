@@ -1,9 +1,9 @@
 {
     "displayName": "Escort",
-    "fluxCapacitors": 13,
-    "fluxVents": 15,
+    "fluxCapacitors": 8,
+    "fluxVents": 20,
     "hullId": "els_dupleix",
-    "hullMods": ["targetingunit"],
+    "hullMods": [],
     "quality": 0,
     "variantId": "els_dupleix_escort",
     "weaponGroups": [

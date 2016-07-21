@@ -3,20 +3,20 @@
     "fluxCapacitors": 9,
     "fluxVents": 20,
     "hullId": "els_dupleix",
-    "hullMods": ["blast_doors"],
+    "hullMods": [],
     "quality": 0,
     "variantId": "els_dupleix_assault",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0001": "lightag"}
+            "weapons": {"WS0001": "els_hatf_rack"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0002": "els_autogun",
+                "WS0002": "els_coilac_heavy",
                 "WS0003": "els_tacmaser"
             }
         },
