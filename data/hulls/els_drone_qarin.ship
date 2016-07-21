@@ -1,8 +1,5 @@
 {
   "bounds": [],
-#  "builtInWeapons": {
-#    "WS0004": "blinker_red"
-#  },
   "center": [
     12,
     12
@@ -51,17 +48,17 @@
     2,
     -0
   ],
-  "shieldRadius": 16.568041,
+  "shieldRadius": 18,
   "spriteName": "graphics/ELS/ships/drones/els_qarin.png",
   "style": "MIDLINE",
   "viewOffset": 0,
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 15,
+      "arc": 25,
       "id": "WS0001",
       "locations": [
-        7.5,
+        5.5,
         -0
       ],
       "mount": "HIDDEN",

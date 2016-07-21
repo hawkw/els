@@ -4,7 +4,7 @@
 	"variantId":"els_drone_qarin",
 	"fluxVents":0,
 	"fluxCapacitors":0,
-	"mods":["fluxbreakers"], # array of strings
+	"mods":["fluxbreakers","targetingunit"], # array of strings
 
 	# mode is either LINKED or ALTERNATING
 	# slot ids (WS ***) must match what's in the .ship file
@@ -16,7 +16,7 @@
 		},
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS0002":"els_zdmaser_sm",
+		 			"WS0002":"els_zdmaser",
 		 		   },
 		},
 	],

@@ -1,5 +1,6 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,icon
 RCS Overdrive,els_rcsburst,,,,,,,3,0.15,0.15,1,0.45,0,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+RCS Overdrive,els_rcsburst_ftr,,,,,,,2,0.10,0.15,1,0.45,0,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
 Antimatter Injector,els_aminjector,,,,,,,,,2,,3,2,TRUE,,,,,,,,,graphics/icons/hullsys/burn_drive.png
 MESA Radar,els_mesa_radar,150,,,,,,,,1.5,,3,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 Zone Defence Drones,els_zd_drones,,,,,,,6,0.2,,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
