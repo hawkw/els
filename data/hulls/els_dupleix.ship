@@ -114,14 +114,14 @@
     0,
     -0
   ],
-  "shieldRadius": 108.295891,
+  "shieldRadius": 109.96022,
   "spriteName": "graphics/ELS/ships/els_dupleix.png",
   "style": "MIDLINE",
   "viewOffset": 0,
   "weaponSlots": [
     {
       "angle": 0,
-      "arc": 15,
+      "arc": 10,
       "id": "WS0001",
       "locations": [
         85,
@@ -129,7 +129,7 @@
       ],
       "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "COMPOSITE"
+      "type": "MISSILE"
     },
     {
       "angle": 0,
@@ -141,7 +141,7 @@
       ],
       "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "BALLISTIC"
+      "type": "COMPOSITE"
     },
     {
       "angle": -110.09523,

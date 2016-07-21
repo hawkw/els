@@ -8,8 +8,8 @@
   "engineSlots": [
     {
       "angle": 180,
-      "contrailSize": 30,
-      "length": 30,
+      "contrailSize": 10,
+      "length": 27,
       "location": [
         -54.5,
         -37
@@ -19,8 +19,8 @@
     },
     {
       "angle": -180,
-      "contrailSize": 30,
-      "length": 30,
+      "contrailSize": 10,
+      "length": 27,
       "location": [
         -54.5,
         37
@@ -30,14 +30,25 @@
     },
     {
       "angle": 180,
-      "contrailSize": 15,
-      "length": 50,
+      "contrailSize": 9,
+      "length": 40,
       "location": [
-        -46.5,
-        -0
+        -46,
+        3.5
       ],
       "style": "ELS_MILITARY",
-      "width": 15
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 40,
+      "location": [
+        -46,
+        -3.5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
     }
   ],
   "height": 135,
@@ -48,7 +59,7 @@
     0,
     -0
   ],
-  "shieldRadius": 83.815269,
+  "shieldRadius": 79.920273,
   "spriteName": "graphics/ELS/ships/els_lancier.png",
   "style": "MIDLINE",
   "viewOffset": 0,
@@ -79,7 +90,7 @@
     },
     {
       "angle": 0,
-      "arc": 15,
+      "arc": 10,
       "id": "WS0001",
       "locations": [
         55.5,
@@ -91,7 +102,7 @@
     },
     {
       "angle": 0,
-      "arc": 45,
+      "arc": 5,
       "id": "WS0002",
       "locations": [
         16,
