@@ -20,7 +20,7 @@
     12,
     16
   ],
-  "collisionRadius": 0,
+  "collisionRadius": 14.807093,
   "engineSlots": [
     {
       "angle": -178.02507,
@@ -80,7 +80,7 @@
       "mount": "HIDDEN",
       "size": "SMALL",
       "type": "BUILT_IN"
-    },
+    }
   ],
   "width": 24
 }
