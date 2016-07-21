@@ -3,3 +3,4 @@ RCS Overdrive,els_rcsburst,,,,,,,3,0.15,0.15,1,0.45,0,,,,,,,,,,graphics/icons/hu
 Antimatter Injector,els_aminjector,,,,,,,,,2,,3,2,TRUE,,,,,,,,,graphics/icons/hullsys/burn_drive.png
 MESA Radar,els_mesa_radar,150,,,,,,,,1.5,,3,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 Zone Defence Drones,els_zd_drones,,,,,,,6,0.2,,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Qarin Drone,els_drone_qarin,,,,,,,1,0.3333,0,,0,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png

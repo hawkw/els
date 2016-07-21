@@ -1,0 +1,23 @@
+{
+	"displayName":"Standard",
+	"hullId":"els_drone_qarin",
+	"variantId":"els_drone_qarin",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":["fluxbreakers"], # array of strings
+
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"els_tacmaser",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0002":"els_zdmaser_sm",
+		 		   },
+		},
+	],
+}
