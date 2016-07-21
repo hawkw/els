@@ -9,7 +9,7 @@ import org.lazywizard.lazylib.MathUtils.{
   getPointOnCircumference => pointOnCircumference
 , getRandomNumberInRange => randomNumBetween
 }
-import me.hawkweisman.elizalib.scalaAPIs.ColorUtil._
+import me.hawkweisman.elizalib.scalaAPIs.graphics.ColorUtil._
 
 import scala.language.postfixOps
 /**

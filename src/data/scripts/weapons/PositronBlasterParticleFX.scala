@@ -7,7 +7,7 @@ import org.lazywizard.lazylib.MathUtils.getRandomNumberInRange
 import org.lwjgl.util.vector.Vector2f
 
 import scala.collection.JavaConverters._
-import me.hawkweisman.elizalib.scalaAPIs.ColorUtil._
+import me.hawkweisman.elizalib.scalaAPIs.graphics.ColorUtil._
 
 import java.awt.Color
 

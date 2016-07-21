@@ -7,9 +7,9 @@ import com.fs.starfarer.api.impl.campaign.ids.Terrain
 import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin.AsteroidFieldParams
 import com.fs.starfarer.api.impl.campaign.ids.Conditions._
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets._
-
 import java.awt.Color
 
+import com.fs.starfarer.api.impl.campaign.terrain.MagneticFieldTerrainPlugin.MagneticFieldParams
 import me.hawkweisman.elizalib.scalaAPIs.WorldgenUtil.RichPlanet
 import me.hawkweisman.elizalib.scalaAPIs.graphics.SpriteUtil._
 
@@ -19,6 +19,8 @@ import me.hawkweisman.elizalib.scalaAPIs.graphics.SpriteUtil._
 object Rousseau {
 
   def generate(sector: SectorAPI): Unit = {
+    val star_trojan_distance = 9500
+    val brumaire_trojan_distance = 3100
 
     val s = Global.getSettings
     val system = sector createStarSystem "Rousseau"
@@ -53,8 +55,8 @@ object Rousseau {
                                         4f, // min asteroid radius
                                         16f, // max asteroid radius
                                         "Rousseau L5 Asteroids"))
-    trojansL4.setCircularOrbit(star, 230 + 60, 9500, 450)
-    trojansL5.setCircularOrbit(star, 230 - 60, 9500, 450)
+    trojansL4.setCircularOrbit(star, 230 + 60, star_trojan_distance, 450)
+    trojansL5.setCircularOrbit(star, 230 - 60, star_trojan_distance, 450)
 
     system.addAsteroidBelt(star, 150, 3100, 128, 60, 80, Terrain
       .ASTEROID_BELT, "The Inner Belt")
@@ -96,13 +98,13 @@ object Rousseau {
                                      )
 
     // brumaire visual spec
-    brumaire.setSpec ( planetColor = Some(new Color(70,155,205,255))
-                     , atmosphereColor = Some(new Color(110,120,150,150))
-                     , cloudColor = Some(new Color(190,210,255,200))
-                     , iconColor = Some(new Color(70,155,205,255))
-                     , atmosphereThickness = Some(0.6f)
-                     , glowTexture = Some(("hab_glows", "aurorae"))
-                     , glowColor = Some(new Color(220,130,225,62))
+    brumaire.setSpec ( planetColor = Some(new Color(225,120,255,255))
+                     , atmosphereColor = Some(new Color(250,200,220,150))
+                     , cloudColor = Some(new Color(255,205,225,150))
+                     , iconColor = Some(new Color(245,105,205,255))
+                     , atmosphereThickness = Some(0.7f)
+                     , glowTexture = Some(("hab_glows", "banded"))
+                     , glowColor = Some(new Color(255,125,200,85))
                      , reverseLightForGlow = Some(true)
                      )
 //    magec1.getSpec().setPlanetColor(new Color(50,100,255,255));
@@ -129,15 +131,36 @@ object Rousseau {
                        1630, 90f, Terrain.RING, "The Fog Band")
     system.addRingBand(brumaire, "misc", "rings1", 256f, 2, Color.white, 256f,
                        1720, 33f, Terrain.RING, "The Fog Band")
+//
+//    // duzahk_star magnetic field
+//   val field = system.addTerrain(Terrain.MAGNETIC_FIELD,
+//                                                new MagneticFieldParams(500f, // terrain effect band width
+//                                                                        2000, // terrain effect middle radius
+//                                                                        brumaire, // entity that it's around
+//                                                                        1750f, // visual band start
+//                                                                        2250f, // visual band end
+//                                                                        new Color(50, 20, 100, 40), // base color
+//                                                                        1f, // probability to spawn aurora sequence, checked once/day when no aurora in progress
+//                                                                        new Color(50, 20, 110, 130),
+//                                                                        new Color(150, 30, 120, 150),
+//                                                                        new Color(200, 50, 130, 190),
+//                                                                        new Color(250, 70, 150, 240),
+//                                                                        new Color(200, 80, 130, 255),
+//                                                                        new Color(75, 0, 160),
+//                                                                        new Color(127, 0, 255)
+//                                                ));
+//    field.setCircularOrbit(brumaire, 0, 0, 150);
 
     // Brumaire's two smaller moons
     val fraternite = system.addPlanet("moon_fraternite",
                                       brumaire, "Fraternité",
                                       "water", 30, 85, 1310, 50)
-    fraternite.setSpec( glowTexture = Some(("hab_glows", "aurorae"))
-                      , glowColor = Some(new Color(220,130,225,62))
+    fraternite.setSpec( planetColor = Some(new Color(255,255,220,255))
+                      , glowTexture = Some(("hab_glows", "aurorae"))
+                      , glowColor = Some(new Color(220,130,225,162))
                       , reverseLightForGlow = Some(true)
-                      , atmosphereThickness = Some(0.4f))
+                      , atmosphereThickness = Some(0.56f)
+                      , atmosphereColor = Some(new Color(200,240,245,150)))
 
     val egalite = system.addPlanet("moon_egalite",
                                     brumaire, "Égalité",
@@ -203,12 +226,23 @@ object Rousseau {
                                         4f, // min asteroid radius
                                         16f, // max asteroid radius
                                         "Brumaire L4 Asteroids"))
-    brumaireL4Trojans.setCircularOrbit(brumaire, 230 + 60, 3100, 450)
-    brumaireL5Trojans.setCircularOrbit(brumaire, 230 - 60, 3100, 450)
+    brumaireL4Trojans.setCircularOrbit( brumaire, 230 + 60
+                                      , brumaire_trojan_distance, 450)
+    brumaireL5Trojans.setCircularOrbit( brumaire, 230 - 60
+                                      , brumaire_trojan_distance, 450)
+
+    val relay = system.addCustomEntity("liberte_relay", // unique id
+                           "Liberté Relay", // name - if null, defaultName from
+                                       // custom_entities.json will be used
+                           "comm_relay", // type of object, defined in custom_entities.json
+                           "directory"); // faction
+    relay.setCircularOrbit( brumaire, 230 + 60
+                          , brumaire_trojan_distance
+                          , 450)
 
     val jumpPoint = Global.getFactory.createJumpPoint("liberte_jump_point",
                                                       "Liberté Crossing")
-    jumpPoint.setCircularOrbit(brumaire, 230 + 60, 3100, 450)
+    jumpPoint.setCircularOrbit(star, 230 + 60, star_trojan_distance, 450)
     jumpPoint.setRelatedPlanet(liberte)
     jumpPoint.setStandardWormholeToHyperspaceVisual()
     system.addEntity(jumpPoint)
