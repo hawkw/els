@@ -59,7 +59,7 @@
     0,
     -0
   ],
-  "shieldRadius": 79.920273,
+  "shieldRadius": 86,
   "spriteName": "graphics/ELS/ships/els_lancier.png",
   "style": "MIDLINE",
   "viewOffset": 0,

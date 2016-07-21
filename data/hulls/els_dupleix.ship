@@ -114,7 +114,7 @@
     0,
     -0
   ],
-  "shieldRadius": 109.96022,
+  "shieldRadius": 112,
   "spriteName": "graphics/ELS/ships/els_dupleix.png",
   "style": "MIDLINE",
   "viewOffset": 0,
