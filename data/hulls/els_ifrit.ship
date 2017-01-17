@@ -1,0 +1,126 @@
+{
+  "bounds": [
+    -15.5,
+    -6,
+    -9.5,
+    -7.5,
+    3,
+    -17.5,
+    1,
+    -6,
+    22,
+    -1.5,
+    22,
+    1.5,
+    1,
+    6,
+    3,
+    17.5,
+    -9.5,
+    7.5,
+    -15.5,
+    6
+  ],
+  "center": [
+    19.5,
+    18
+  ],
+  "collisionRadius": 18.006943,
+  "engineSlots": [
+    {
+      "angle": -177.273682,
+      "contrailSize": 6.563986,
+      "length": 15.173283,
+      "location": [
+        -16,
+        -5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 6.563986
+    },
+    {
+      "angle": 177.273682,
+      "contrailSize": 6.563986,
+      "length": 15.173283,
+      "location": [
+        -16,
+        5
+      ],
+      "style": "ELS_MILITARY",
+      "width": 6.563986
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 27,
+      "location": [
+        -17,
+        -0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 27,
+      "location": [
+        -17,
+        0
+      ],
+      "style": "ELS_MILITARY",
+      "width": 9
+    }
+  ],
+  "height": 42,
+  "hullId": "els_ifrit",
+  "hullName": "Ifrit",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 24.253866,
+  "spriteName": "graphics/ELS/ships/els_ifrit.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        1.5,
+        -6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        1.5,
+        6.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        17.5,
+        -1.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 38
+}

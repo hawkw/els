@@ -1,0 +1,29 @@
+{
+	"id":"els_shamshir_ftr",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":250,
+	"turretSprite":"graphics/ELS/weapons/stinger_turret_base.png",
+	"turretGunSprite":"graphics/ELS/weapons/stinger_turret_recoil.png",
+	"hardpointSprite":"graphics/ELS/weapons/stinger_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/ELS/weapons/stinger_hardpoint_recoil.png",
+	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[16, -2.5, 16, 2.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[18, -2.5, 18, 2.5],
+	"hardpointAngleOffsets":[0, 0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"ALTERNATING_BURST", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+   "muzzleFlashSpec":{"length":6.0,   # only used if animationType = MUZZLE_FLASH
+       "spread":125.0,
+       "particleSizeMin":3.0,
+       "particleSizeRange":12.0,
+       "particleDuration":0.09,
+       "particleCount":15,
+       "particleColor":[255,165,105,225]},
+   "projectileSpecId":"els_shamshir_shot_mini",  # projectile that will be fired
+   "fireSoundOne":"els_stinger_load",
+   "fireSoundTwo":"els_stinger_fire",
+}

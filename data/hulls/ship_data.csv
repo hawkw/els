@@ -13,4 +13,5 @@ Mistral (M)_Old,els_mistral_mm,Light Transport,maneuveringjets,6,1500,250,1700,,
 Hallebarde,els_hallebarde,Missile Destroyer,fastmissileracks,11,5000,600,5000,,250,85,60,40,20,35,35,460,OMNI,,150,0.4,1.1,,,50,90,75,120,2,,8,30000,5,12,450,0.25,12,9,,302
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Djinn,els_djinn,Interceptor,els_rcsburst_ftr,5,450,75,550,,125,,200,160,110,130,260,10,NONE,,0,0,0,,,1,1,,,,,10,,3,6,,,1,,,101
+Ifrit,els_ifrit,Heavy Fighter,flarelauncher_fighter,6,750,125,800,,125,,190,125,100,120,250,12,NONE,,0,0,0,,,1,1,,,,,10,15000,4,7,,,1,,,102
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

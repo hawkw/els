@@ -1,5 +1,4 @@
-{
-   "id":"directory",
+{ "id":"directory",
    "color":[0,255,100,255],
    "displayName":"Directory",
    "displayNameLong":"Allied Systems Directory",
@@ -102,14 +101,13 @@
        "fastAttack":{
            "els_chevalier_fast":5,
            "els_damascus_recon":20,
-           "els_lancier_std":10,
+           "els_lancier_assault":10,
            "fallback":{"combatSmall":1},
        },
-
        "escortSmall":{
             "els_adept_std":1,
             "els_damascus_escort":10,
-            "els_lancier_cs":5,
+            "els_lancier_cs":10,
             "fallback":{"combatSmall":1},
        },
        "escortMedium":{
@@ -121,8 +119,8 @@
        "combatSmall":{
             "els_adept_std":1,
             "els_adept_bal":1,
-            "els_lancier_std":10,
-            "els_lancier_cs":5,
+            "els_lancier_assault":10,
+            "els_lancier_cs":10,
            "fallback":{"escortSmall":1},
        },
        "combatMedium":{
